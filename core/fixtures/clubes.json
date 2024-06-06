@@ -1,0 +1,5540 @@
+[
+    {
+        "model": "core.club",
+        "pk": "105",
+        "fields": {
+            "nombre": "Sportverein Darmstadt 1898 e. V.",
+            "pais": "Alemania",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/105.png",
+            "nombre_estadio": "Merck-Stadion am Böllenfalltor",
+            "edad_promedia_plantilla": "26.5",
+            "tamaño_plantilla": "31",
+            "capacidad_estadio": "17810"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "11127",
+        "fields": {
+            "nombre": "FK Ural Yekaterinburg",
+            "pais": "Rusia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/11127.png",
+            "nombre_estadio": "Yekaterinburg Arena",
+            "edad_promedia_plantilla": "27.5",
+            "tamaño_plantilla": "26",
+            "capacidad_estadio": "23000"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "114",
+        "fields": {
+            "nombre": "Beşiktaş Jimnastik Kulübü",
+            "pais": "Turquia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/114.png",
+            "nombre_estadio": "Tüpraş Stadyumu",
+            "edad_promedia_plantilla": "26.3",
+            "tamaño_plantilla": "36",
+            "capacidad_estadio": "42590"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "12",
+        "fields": {
+            "nombre": "Associazione Sportiva Roma",
+            "pais": "Italia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/12.png",
+            "nombre_estadio": "Olimpico di Roma",
+            "edad_promedia_plantilla": "26.5",
+            "tamaño_plantilla": "27",
+            "capacidad_estadio": "73261"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "148",
+        "fields": {
+            "nombre": "Tottenham Hotspur Football Club",
+            "pais": "Inglaterra",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/148.png",
+            "nombre_estadio": "Tottenham Hotspur Stadium",
+            "edad_promedia_plantilla": "25.4",
+            "tamaño_plantilla": "26",
+            "capacidad_estadio": "62850"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "157",
+        "fields": {
+            "nombre": "Koninklijke Atletiek Associatie Gent",
+            "pais": "Belgica",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/157.png",
+            "nombre_estadio": "KAA Gent Arena",
+            "edad_promedia_plantilla": "25.7",
+            "tamaño_plantilla": "28",
+            "capacidad_estadio": "19999"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "1894",
+        "fields": {
+            "nombre": "Hvidovre Idrætsforening",
+            "pais": "Dinamarca",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/1894.png",
+            "nombre_estadio": "PRO VENTILATION Arena",
+            "edad_promedia_plantilla": "27.1",
+            "tamaño_plantilla": "24",
+            "capacidad_estadio": "12000"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "190",
+        "fields": {
+            "nombre": "Football Club København",
+            "pais": "Dinamarca",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/190.png",
+            "nombre_estadio": "Parken",
+            "edad_promedia_plantilla": "26.0",
+            "tamaño_plantilla": "28",
+            "capacidad_estadio": "38065"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "192",
+        "fields": {
+            "nombre": "Roda JC Kerkrade",
+            "pais": "Paises Bajos",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/192.png",
+            "nombre_estadio": "Parkstad Limburg Stadion",
+            "edad_promedia_plantilla": "24.0",
+            "tamaño_plantilla": "25",
+            "capacidad_estadio": "19979"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "19789",
+        "fields": {
+            "nombre": "Yeni Malatyaspor",
+            "pais": "Turquia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/19789.png",
+            "nombre_estadio": "Yeni Malatya Stadyumu",
+            "edad_promedia_plantilla": "22.9",
+            "tamaño_plantilla": "10",
+            "capacidad_estadio": "25745"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "2079",
+        "fields": {
+            "nombre": "Veria NPS",
+            "pais": "Grecia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/2079.png",
+            "nombre_estadio": "Dimotiko Stadio Verias",
+            "edad_promedia_plantilla": "24.3",
+            "tamaño_plantilla": "29",
+            "capacidad_estadio": "6350"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "21957",
+        "fields": {
+            "nombre": "AO Platanias",
+            "pais": "Grecia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/21957.png",
+            "nombre_estadio": "Dimotiko Gipedo Perivolia",
+            "edad_promedia_plantilla": "0.0",
+            "tamaño_plantilla": "0",
+            "capacidad_estadio": "3700"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "2414",
+        "fields": {
+            "nombre": "AC Horsens",
+            "pais": "Dinamarca",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/2414.png",
+            "nombre_estadio": "Nordstern Arena Horsens",
+            "edad_promedia_plantilla": "25.1",
+            "tamaño_plantilla": "19",
+            "capacidad_estadio": "10400"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "2457",
+        "fields": {
+            "nombre": "B SAD",
+            "pais": "Portugal",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/2457.png",
+            "nombre_estadio": "Estádio Nacional do Jamor",
+            "edad_promedia_plantilla": "24.2",
+            "tamaño_plantilla": "25",
+            "capacidad_estadio": "37593"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "2578",
+        "fields": {
+            "nombre": "Saint Johnstone Football Club",
+            "pais": "Escocia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/2578.png",
+            "nombre_estadio": "McDiarmid Park",
+            "edad_promedia_plantilla": "26.2",
+            "tamaño_plantilla": "26",
+            "capacidad_estadio": "10696"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "2727",
+        "fields": {
+            "nombre": "Oud-Heverlee Leuven",
+            "pais": "Belgica",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/2727.png",
+            "nombre_estadio": "King Power at Den Dreef Stadion",
+            "edad_promedia_plantilla": "24.4",
+            "tamaño_plantilla": "28",
+            "capacidad_estadio": "10020"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "28643",
+        "fields": {
+            "nombre": "SK Beveren",
+            "pais": "Belgica",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/28643.png",
+            "nombre_estadio": "Freethielstadion",
+            "edad_promedia_plantilla": "26.8",
+            "tamaño_plantilla": "27",
+            "capacidad_estadio": "13290"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "2990",
+        "fields": {
+            "nombre": "Académica Coimbra",
+            "pais": "Portugal",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/2990.png",
+            "nombre_estadio": "Estádio Cidade de Coimbra",
+            "edad_promedia_plantilla": "25.2",
+            "tamaño_plantilla": "26",
+            "capacidad_estadio": "29744"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "3057",
+        "fields": {
+            "nombre": "Royal Standard Club de Liège",
+            "pais": "Belgica",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/3057.png",
+            "nombre_estadio": "Maurice Dufrasne Stadion",
+            "edad_promedia_plantilla": "23.7",
+            "tamaño_plantilla": "27",
+            "capacidad_estadio": "27670"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "3690",
+        "fields": {
+            "nombre": "SKA Khabarovsk",
+            "pais": "Rusia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/3690.png",
+            "nombre_estadio": "Lenin Stadion",
+            "edad_promedia_plantilla": "25.7",
+            "tamaño_plantilla": "27",
+            "capacidad_estadio": "15200"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "4795",
+        "fields": {
+            "nombre": "FC Ingolstadt 04",
+            "pais": "Alemania",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/4795.png",
+            "nombre_estadio": "Audi Sportpark",
+            "edad_promedia_plantilla": "24.3",
+            "tamaño_plantilla": "28",
+            "capacidad_estadio": "15800"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "511",
+        "fields": {
+            "nombre": "Dundee Football Club",
+            "pais": "Escocia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/511.png",
+            "nombre_estadio": "Kilmac Stadium at Dens Park",
+            "edad_promedia_plantilla": "25.0",
+            "tamaño_plantilla": "28",
+            "capacidad_estadio": "11850"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "5358",
+        "fields": {
+            "nombre": "SD Huesca",
+            "pais": "España",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/5358.png",
+            "nombre_estadio": "El Alcoraz",
+            "edad_promedia_plantilla": "27.5",
+            "tamaño_plantilla": "24",
+            "capacidad_estadio": "9128"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "603",
+        "fields": {
+            "nombre": "Cardiff City",
+            "pais": "Inglaterra",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/603.png",
+            "nombre_estadio": "Cardiff City Stadium",
+            "edad_promedia_plantilla": "25.5",
+            "tamaño_plantilla": "28",
+            "capacidad_estadio": "33280"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "60551",
+        "fields": {
+            "nombre": "Sport Klub Dnipro-1",
+            "pais": "Ucrania",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/60551.png",
+            "nombre_estadio": "Dnipro-Arena",
+            "edad_promedia_plantilla": "26.3",
+            "tamaño_plantilla": "24",
+            "capacidad_estadio": "31003"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "6996",
+        "fields": {
+            "nombre": "Goverla Uzhgorod (- 2016)",
+            "pais": "Ucrania",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/6996.png",
+            "nombre_estadio": "Avangard",
+            "edad_promedia_plantilla": "0.0",
+            "tamaño_plantilla": "0",
+            "capacidad_estadio": "10640"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "8024",
+        "fields": {
+            "nombre": "Futebol Clube de Arouca",
+            "pais": "Portugal",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/8024.png",
+            "nombre_estadio": "Estádio Municipal de Arouca",
+            "edad_promedia_plantilla": "25.9",
+            "tamaño_plantilla": "28",
+            "capacidad_estadio": "5600"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "868",
+        "fields": {
+            "nombre": "Makina ve Kimya Endüstrisi Ankaragücü Spor Kulübü",
+            "pais": "Turquia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/868.png",
+            "nombre_estadio": "Eryaman Stadyumu",
+            "edad_promedia_plantilla": "26.3",
+            "tamaño_plantilla": "33",
+            "capacidad_estadio": "20560"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "903",
+        "fields": {
+            "nombre": "Hibernian Football Club",
+            "pais": "Escocia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/903.png",
+            "nombre_estadio": "Easter Road Stadium",
+            "edad_promedia_plantilla": "26.0",
+            "tamaño_plantilla": "26",
+            "capacidad_estadio": "20250"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "969",
+        "fields": {
+            "nombre": "Montpellier Hérault Sport Club",
+            "pais": "Francia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/969.png",
+            "nombre_estadio": "Stade de la Mosson",
+            "edad_promedia_plantilla": "25.7",
+            "tamaño_plantilla": "24",
+            "capacidad_estadio": "32939"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "989",
+        "fields": {
+            "nombre": "Association Football Club Bournemouth",
+            "pais": "Inglaterra",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/989.png",
+            "nombre_estadio": "Vitality Stadium",
+            "edad_promedia_plantilla": "25.8",
+            "tamaño_plantilla": "26",
+            "capacidad_estadio": "11329"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "993",
+        "fields": {
+            "nombre": "Córdoba CF",
+            "pais": "España",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/993.png",
+            "nombre_estadio": "Nuevo Arcángel",
+            "edad_promedia_plantilla": "27.9",
+            "tamaño_plantilla": "24",
+            "capacidad_estadio": "21822"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "1025",
+        "fields": {
+            "nombre": "Bologna Football Club 1909",
+            "pais": "Italia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/1025.png",
+            "nombre_estadio": "Stadio Renato Dall’Ara",
+            "edad_promedia_plantilla": "24.5",
+            "tamaño_plantilla": "27",
+            "capacidad_estadio": "36462"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "1082",
+        "fields": {
+            "nombre": "Lille Olympique Sporting Club Lille Métropole",
+            "pais": "Francia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/1082.png",
+            "nombre_estadio": "Decathlon Arena-Stade Pierre-Mauroy",
+            "edad_promedia_plantilla": "25.1",
+            "tamaño_plantilla": "25",
+            "capacidad_estadio": "50186"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "1160",
+        "fields": {
+            "nombre": "Nîmes Olympique",
+            "pais": "Francia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/1160.png",
+            "nombre_estadio": "Stade des Antonins",
+            "edad_promedia_plantilla": "25.4",
+            "tamaño_plantilla": "26",
+            "capacidad_estadio": "8033"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "11688",
+        "fields": {
+            "nombre": "Giresunspor",
+            "pais": "Turquia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/11688.png",
+            "nombre_estadio": "Çotanak Spor Kompleksi",
+            "edad_promedia_plantilla": "22.5",
+            "tamaño_plantilla": "17",
+            "capacidad_estadio": "21500"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "124",
+        "fields": {
+            "nombre": "Rangers Football Club",
+            "pais": "Escocia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/124.png",
+            "nombre_estadio": "Ibrox Stadium",
+            "edad_promedia_plantilla": "26.3",
+            "tamaño_plantilla": "30",
+            "capacidad_estadio": "50987"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "1465",
+        "fields": {
+            "nombre": "Grupo Desportivo Estoril Praia",
+            "pais": "Portugal",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/1465.png",
+            "nombre_estadio": "Estádio António Coimbra da Mota",
+            "edad_promedia_plantilla": "24.4",
+            "tamaño_plantilla": "28",
+            "capacidad_estadio": "5000"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "2477",
+        "fields": {
+            "nombre": "Karpaty Lviv (-2021)",
+            "pais": "Ucrania",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/2477.png",
+            "nombre_estadio": "Stadion Ukraina",
+            "edad_promedia_plantilla": "0.0",
+            "tamaño_plantilla": "0",
+            "capacidad_estadio": "28051"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "2553",
+        "fields": {
+            "nombre": "Kilmarnock Football Club",
+            "pais": "Escocia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/2553.png",
+            "nombre_estadio": "BBSP Stadium, Rugby Park",
+            "edad_promedia_plantilla": "26.3",
+            "tamaño_plantilla": "25",
+            "capacidad_estadio": "18128"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "2672",
+        "fields": {
+            "nombre": "APO Levadiakos",
+            "pais": "Grecia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/2672.png",
+            "nombre_estadio": "Stadio Livadias",
+            "edad_promedia_plantilla": "27.5",
+            "tamaño_plantilla": "31",
+            "capacidad_estadio": "5915"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "2740",
+        "fields": {
+            "nombre": "Vorskla Poltava",
+            "pais": "Ucrania",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/2740.png",
+            "nombre_estadio": "Vorskla im. Oleksiy Butovskyi",
+            "edad_promedia_plantilla": "24.5",
+            "tamaño_plantilla": "29",
+            "capacidad_estadio": "23842"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "3008",
+        "fields": {
+            "nombre": "Hull City",
+            "pais": "Inglaterra",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/3008.png",
+            "nombre_estadio": "MKM Stadium",
+            "edad_promedia_plantilla": "25.0",
+            "tamaño_plantilla": "28",
+            "capacidad_estadio": "25586"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "31",
+        "fields": {
+            "nombre": "Liverpool Football Club",
+            "pais": "Inglaterra",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/31.png",
+            "nombre_estadio": "Anfield",
+            "edad_promedia_plantilla": "25.8",
+            "tamaño_plantilla": "27",
+            "capacidad_estadio": "54074"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "336",
+        "fields": {
+            "nombre": "Sporting Clube de Portugal",
+            "pais": "Portugal",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/336.png",
+            "nombre_estadio": "Estádio José Alvalade XXI",
+            "edad_promedia_plantilla": "25.5",
+            "tamaño_plantilla": "25",
+            "capacidad_estadio": "50095"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "3911",
+        "fields": {
+            "nombre": "Stade brestois 29",
+            "pais": "Francia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/3911.png",
+            "nombre_estadio": "Stade Francis-Le Blé",
+            "edad_promedia_plantilla": "25.6",
+            "tamaño_plantilla": "24",
+            "capacidad_estadio": "15220"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "4",
+        "fields": {
+            "nombre": "1.FC Nuremberg",
+            "pais": "Alemania",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/4.png",
+            "nombre_estadio": "Max-Morlock-Stadion",
+            "edad_promedia_plantilla": "25.2",
+            "tamaño_plantilla": "33",
+            "capacidad_estadio": "50000"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "410",
+        "fields": {
+            "nombre": "Udinese Calcio",
+            "pais": "Italia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/410.png",
+            "nombre_estadio": "Bluenergy Stadium",
+            "edad_promedia_plantilla": "25.8",
+            "tamaño_plantilla": "29",
+            "capacidad_estadio": "25144"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "41231",
+        "fields": {
+            "nombre": "FK Sochi",
+            "pais": "Rusia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/41231.png",
+            "nombre_estadio": "Fisht Olympic Stadium",
+            "edad_promedia_plantilla": "25.8",
+            "tamaño_plantilla": "29",
+            "capacidad_estadio": "45994"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "4128",
+        "fields": {
+            "nombre": "Amkar Perm",
+            "pais": "Rusia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/4128.png",
+            "nombre_estadio": "Zvezda",
+            "edad_promedia_plantilla": "26.0",
+            "tamaño_plantilla": "26",
+            "capacidad_estadio": "17000"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "449",
+        "fields": {
+            "nombre": "Trabzonspor Kulübü",
+            "pais": "Turquia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/449.png",
+            "nombre_estadio": "Papara Park",
+            "edad_promedia_plantilla": "25.4",
+            "tamaño_plantilla": "28",
+            "capacidad_estadio": "40782"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "4603",
+        "fields": {
+            "nombre": "AE Larisa",
+            "pais": "Grecia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/4603.png",
+            "nombre_estadio": "Stadio Alkazar",
+            "edad_promedia_plantilla": "24.2",
+            "tamaño_plantilla": "28",
+            "capacidad_estadio": "13108"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "55686",
+        "fields": {
+            "nombre": "TOV FK Metalist 1925 Kharkiv",
+            "pais": "Ucrania",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/55686.png",
+            "nombre_estadio": "Livyi Bereg Arena",
+            "edad_promedia_plantilla": "26.8",
+            "tamaño_plantilla": "32",
+            "capacidad_estadio": "4700"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "566",
+        "fields": {
+            "nombre": "Beerschot AC",
+            "pais": "Belgica",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/566.png",
+            "nombre_estadio": "Olympisch Stadion",
+            "edad_promedia_plantilla": "0.0",
+            "tamaño_plantilla": "0",
+            "capacidad_estadio": "12771"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "595",
+        "fields": {
+            "nombre": "SC Bastia",
+            "pais": "Francia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/595.png",
+            "nombre_estadio": "Stade Armand-Cesari",
+            "edad_promedia_plantilla": "27.6",
+            "tamaño_plantilla": "25",
+            "capacidad_estadio": "16480"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "6890",
+        "fields": {
+            "nombre": "İstanbul Başakşehir Futbol Kulübü",
+            "pais": "Turquia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/6890.png",
+            "nombre_estadio": "Başakşehir Fatih Terim",
+            "edad_promedia_plantilla": "25.9",
+            "tamaño_plantilla": "35",
+            "capacidad_estadio": "17156"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "7185",
+        "fields": {
+            "nombre": "Panthrakikos Komotini",
+            "pais": "Grecia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/7185.png",
+            "nombre_estadio": "Stadio Komotinis OPAP",
+            "edad_promedia_plantilla": "24.3",
+            "tamaño_plantilla": "29",
+            "capacidad_estadio": "5601"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "83678",
+        "fields": {
+            "nombre": "Metalist Kharkiv",
+            "pais": "Ucrania",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/83678.png",
+            "nombre_estadio": "Avangard",
+            "edad_promedia_plantilla": "26.1",
+            "tamaño_plantilla": "25",
+            "capacidad_estadio": "10640"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "932",
+        "fields": {
+            "nombre": "Футбольный клуб \"Локомотив\" Москва",
+            "pais": "Rusia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/932.png",
+            "nombre_estadio": "RZD Arena",
+            "edad_promedia_plantilla": "24.3",
+            "tamaño_plantilla": "27",
+            "capacidad_estadio": "27084"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "1010",
+        "fields": {
+            "nombre": "Watford FC",
+            "pais": "Inglaterra",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/1010.png",
+            "nombre_estadio": "Vicarage Road",
+            "edad_promedia_plantilla": "26.3",
+            "tamaño_plantilla": "30",
+            "capacidad_estadio": "21577"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "1108",
+        "fields": {
+            "nombre": "Deportivo Alavés S.A.D.",
+            "pais": "España",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/1108.png",
+            "nombre_estadio": "Mendizorroza",
+            "edad_promedia_plantilla": "25.5",
+            "tamaño_plantilla": "22",
+            "capacidad_estadio": "19840"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "1124",
+        "fields": {
+            "nombre": "FK Fakel Voronezh",
+            "pais": "Rusia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/1124.png",
+            "nombre_estadio": "Central Stadium of Profsoyuzes",
+            "edad_promedia_plantilla": "27.6",
+            "tamaño_plantilla": "26",
+            "capacidad_estadio": "21793"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "1158",
+        "fields": {
+            "nombre": "Football Club Lorient-Bretagne Sud",
+            "pais": "Francia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/1158.png",
+            "nombre_estadio": "Stade du Moustoir",
+            "edad_promedia_plantilla": "24.4",
+            "tamaño_plantilla": "28",
+            "capacidad_estadio": "19010"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "1177",
+        "fields": {
+            "nombre": "Silkeborg Idrætsforening",
+            "pais": "Dinamarca",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/1177.png",
+            "nombre_estadio": "JYSK Park",
+            "edad_promedia_plantilla": "23.8",
+            "tamaño_plantilla": "25",
+            "capacidad_estadio": "10000"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "13",
+        "fields": {
+            "nombre": "Club Atlético de Madrid S.A.D.",
+            "pais": "España",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/13.png",
+            "nombre_estadio": "Civitas Metropolitano",
+            "edad_promedia_plantilla": "28.6",
+            "tamaño_plantilla": "25",
+            "capacidad_estadio": "70460"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "131",
+        "fields": {
+            "nombre": "Futbol Club Barcelona",
+            "pais": "España",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/131.png",
+            "nombre_estadio": "Olímpic Lluís Companys",
+            "edad_promedia_plantilla": "24.7",
+            "tamaño_plantilla": "26",
+            "capacidad_estadio": "49472"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "133",
+        "fields": {
+            "nombre": "SC Cambuur Leeuwarden",
+            "pais": "Paises Bajos",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/133.png",
+            "nombre_estadio": "Cambuurstadion",
+            "edad_promedia_plantilla": "23.1",
+            "tamaño_plantilla": "16",
+            "capacidad_estadio": "10250"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "141",
+        "fields": {
+            "nombre": "Galatasaray Spor Kulübü",
+            "pais": "Turquia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/141.png",
+            "nombre_estadio": "Ali Sami Yen Spor Kompleksi RAMS Park",
+            "edad_promedia_plantilla": "26.2",
+            "tamaño_plantilla": "28",
+            "capacidad_estadio": "52223"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "1411",
+        "fields": {
+            "nombre": "RAEC Mons (- 2015)",
+            "pais": "Belgica",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/1411.png",
+            "nombre_estadio": "Stade Charles Tondreau",
+            "edad_promedia_plantilla": "0.0",
+            "tamaño_plantilla": "0",
+            "capacidad_estadio": "12662"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "169",
+        "fields": {
+            "nombre": "Panionios Athens",
+            "pais": "Grecia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/169.png",
+            "nombre_estadio": "Stadio Neas Smyrnis",
+            "edad_promedia_plantilla": "23.5",
+            "tamaño_plantilla": "34",
+            "capacidad_estadio": "11700"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "18",
+        "fields": {
+            "nombre": "Borussia Verein für Leibesübungen 1900 Mönchengladbach",
+            "pais": "Alemania",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/18.png",
+            "nombre_estadio": "Stadion im Borussia-Park",
+            "edad_promedia_plantilla": "25.3",
+            "tamaño_plantilla": "31",
+            "capacidad_estadio": "54042"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "18105",
+        "fields": {
+            "nombre": "PFK Lviv",
+            "pais": "Ucrania",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/18105.png",
+            "nombre_estadio": "Stadion SKIF",
+            "edad_promedia_plantilla": "18.3",
+            "tamaño_plantilla": "3",
+            "capacidad_estadio": "3742"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "2036",
+        "fields": {
+            "nombre": "1. Fußballclub Heidenheim 1846",
+            "pais": "Alemania",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/2036.png",
+            "nombre_estadio": "Voith-Arena",
+            "edad_promedia_plantilla": "26.0",
+            "tamaño_plantilla": "28",
+            "capacidad_estadio": "15000"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "273",
+        "fields": {
+            "nombre": "Stade Rennais Football Club",
+            "pais": "Francia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/273.png",
+            "nombre_estadio": "Roazhon Park",
+            "edad_promedia_plantilla": "24.2",
+            "tamaño_plantilla": "24",
+            "capacidad_estadio": "29778"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "3325",
+        "fields": {
+            "nombre": "Grupo Desportivo de Chaves",
+            "pais": "Portugal",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/3325.png",
+            "nombre_estadio": "Estádio Municipal Eng.º Manuel Branco Teixeira",
+            "edad_promedia_plantilla": "26.4",
+            "tamaño_plantilla": "26",
+            "capacidad_estadio": "8396"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "3327",
+        "fields": {
+            "nombre": "FC Penafiel",
+            "pais": "Portugal",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/3327.png",
+            "nombre_estadio": "Estádio Municipal 25 de Abril",
+            "edad_promedia_plantilla": "27.9",
+            "tamaño_plantilla": "28",
+            "capacidad_estadio": "5230"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "366",
+        "fields": {
+            "nombre": "Real Valladolid CF",
+            "pais": "España",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/366.png",
+            "nombre_estadio": "Nuevo José Zorrilla",
+            "edad_promedia_plantilla": "27.2",
+            "tamaño_plantilla": "22",
+            "capacidad_estadio": "27618"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "4294",
+        "fields": {
+            "nombre": "Sporting Clube Farense",
+            "pais": "Portugal",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/4294.png",
+            "nombre_estadio": "Estádio São Luís",
+            "edad_promedia_plantilla": "27.9",
+            "tamaño_plantilla": "27",
+            "capacidad_estadio": "7000"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "458",
+        "fields": {
+            "nombre": "Palermo FC",
+            "pais": "Italia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/458.png",
+            "nombre_estadio": "Comunale Renzo Barbera \"La Favorita\"",
+            "edad_promedia_plantilla": "25.6",
+            "tamaño_plantilla": "28",
+            "capacidad_estadio": "36365"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "46",
+        "fields": {
+            "nombre": "Football Club Internazionale Milano S.p.A.",
+            "pais": "Italia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/46.png",
+            "nombre_estadio": "Giuseppe Meazza",
+            "edad_promedia_plantilla": "28.9",
+            "tamaño_plantilla": "25",
+            "capacidad_estadio": "75923"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "5220",
+        "fields": {
+            "nombre": "GS Ergotelis",
+            "pais": "Grecia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/5220.png",
+            "nombre_estadio": "Pankritio Stadio",
+            "edad_promedia_plantilla": "23.3",
+            "tamaño_plantilla": "3",
+            "capacidad_estadio": "25780"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "5572",
+        "fields": {
+            "nombre": "Niki Volou",
+            "pais": "Grecia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/5572.png",
+            "nombre_estadio": "Panthessaliko Stadio",
+            "edad_promedia_plantilla": "27.2",
+            "tamaño_plantilla": "26",
+            "capacidad_estadio": "22700"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "5817",
+        "fields": {
+            "nombre": "SönderjyskE",
+            "pais": "Dinamarca",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/5817.png",
+            "nombre_estadio": "Sydbank Park",
+            "edad_promedia_plantilla": "24.0",
+            "tamaño_plantilla": "30",
+            "capacidad_estadio": "10000"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "605",
+        "fields": {
+            "nombre": "Aris Thessalonikis",
+            "pais": "Grecia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/605.png",
+            "nombre_estadio": "Gipedo \"Kleanthis Vikelidis\"",
+            "edad_promedia_plantilla": "28.1",
+            "tamaño_plantilla": "33",
+            "capacidad_estadio": "22800"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "995",
+        "fields": {
+            "nombre": "Football Club de Nantes",
+            "pais": "Francia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/995.png",
+            "nombre_estadio": "Stade de la Beaujoire",
+            "edad_promedia_plantilla": "26.4",
+            "tamaño_plantilla": "25",
+            "capacidad_estadio": "37463"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "1003",
+        "fields": {
+            "nombre": "Leicester City",
+            "pais": "Inglaterra",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/1003.png",
+            "nombre_estadio": "King Power Stadium",
+            "edad_promedia_plantilla": "27.1",
+            "tamaño_plantilla": "25",
+            "capacidad_estadio": "32273"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "1237",
+        "fields": {
+            "nombre": "Brighton and Hove Albion Football Club",
+            "pais": "Inglaterra",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/1237.png",
+            "nombre_estadio": "AMEX Stadium",
+            "edad_promedia_plantilla": "25.4",
+            "tamaño_plantilla": "27",
+            "capacidad_estadio": "31800"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "1436",
+        "fields": {
+            "nombre": "SC Beira-Mar",
+            "pais": "Portugal",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/1436.png",
+            "nombre_estadio": "Estádio Municipal de Aveiro",
+            "edad_promedia_plantilla": "26.6",
+            "tamaño_plantilla": "26",
+            "capacidad_estadio": "32830"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "1455",
+        "fields": {
+            "nombre": "FC Dordrecht",
+            "pais": "Paises Bajos",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/1455.png",
+            "nombre_estadio": "Matchoholic Stadion",
+            "edad_promedia_plantilla": "23.3",
+            "tamaño_plantilla": "29",
+            "capacidad_estadio": "4235"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "14589",
+        "fields": {
+            "nombre": "FC Orenburg",
+            "pais": "Rusia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/14589.png",
+            "nombre_estadio": "Gazovik",
+            "edad_promedia_plantilla": "24.7",
+            "tamaño_plantilla": "27",
+            "capacidad_estadio": "10046"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "1519",
+        "fields": {
+            "nombre": "Dundee United FC",
+            "pais": "Escocia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/1519.png",
+            "nombre_estadio": "Tannadice Park",
+            "edad_promedia_plantilla": "24.7",
+            "tamaño_plantilla": "25",
+            "capacidad_estadio": "14223"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "16239",
+        "fields": {
+            "nombre": "Desna Chernigiv",
+            "pais": "Ucrania",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/16239.png",
+            "nombre_estadio": "Stadion im. Yuriya Gagarina",
+            "edad_promedia_plantilla": "0.0",
+            "tamaño_plantilla": "0",
+            "capacidad_estadio": "12060"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "173",
+        "fields": {
+            "nombre": "Odense Boldklub",
+            "pais": "Dinamarca",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/173.png",
+            "nombre_estadio": "Nature Energy Park",
+            "edad_promedia_plantilla": "23.9",
+            "tamaño_plantilla": "28",
+            "capacidad_estadio": "15790"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "200",
+        "fields": {
+            "nombre": "Football Club Utrecht",
+            "pais": "Paises Bajos",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/200.png",
+            "nombre_estadio": "Stadion \"Galgenwaard\"",
+            "edad_promedia_plantilla": "25.3",
+            "tamaño_plantilla": "27",
+            "capacidad_estadio": "23750"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "206",
+        "fields": {
+            "nombre": "Brøndby Idrætsforening",
+            "pais": "Dinamarca",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/206.png",
+            "nombre_estadio": "Brøndby Stadion",
+            "edad_promedia_plantilla": "25.1",
+            "tamaño_plantilla": "27",
+            "capacidad_estadio": "28000"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "2715",
+        "fields": {
+            "nombre": "RFC Seraing",
+            "pais": "Belgica",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/2715.png",
+            "nombre_estadio": "Stade du Paray",
+            "edad_promedia_plantilla": "23.5",
+            "tamaño_plantilla": "22",
+            "capacidad_estadio": "6744"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "28956",
+        "fields": {
+            "nombre": "AEL Kalloni",
+            "pais": "Grecia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/28956.png",
+            "nombre_estadio": "Stadio Mytilinis",
+            "edad_promedia_plantilla": "0.0",
+            "tamaño_plantilla": "0",
+            "capacidad_estadio": "4000"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "2969",
+        "fields": {
+            "nombre": "Dijon FCO",
+            "pais": "Francia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/2969.png",
+            "nombre_estadio": "Stade Gaston-Gérard",
+            "edad_promedia_plantilla": "25.8",
+            "tamaño_plantilla": "29",
+            "capacidad_estadio": "16098"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "2995",
+        "fields": {
+            "nombre": "FC Paços de Ferreira",
+            "pais": "Portugal",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/2995.png",
+            "nombre_estadio": "Estádio Capital do Móvel",
+            "edad_promedia_plantilla": "25.5",
+            "tamaño_plantilla": "32",
+            "capacidad_estadio": "9076"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "3426",
+        "fields": {
+            "nombre": "Esbjerg fB",
+            "pais": "Dinamarca",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/3426.png",
+            "nombre_estadio": "Blue Water Arena",
+            "edad_promedia_plantilla": "22.7",
+            "tamaño_plantilla": "27",
+            "capacidad_estadio": "16942"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "3522",
+        "fields": {
+            "nombre": "Spezia Calcio",
+            "pais": "Italia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/3522.png",
+            "nombre_estadio": "Alberto Picco",
+            "edad_promedia_plantilla": "24.4",
+            "tamaño_plantilla": "32",
+            "capacidad_estadio": "11676"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "3609",
+        "fields": {
+            "nombre": "Rotor Volgograd",
+            "pais": "Rusia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/3609.png",
+            "nombre_estadio": "Volgograd Arena",
+            "edad_promedia_plantilla": "23.9",
+            "tamaño_plantilla": "27",
+            "capacidad_estadio": "45568"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "39097",
+        "fields": {
+            "nombre": "FK Obolon Kyiv",
+            "pais": "Ucrania",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/39097.png",
+            "nombre_estadio": "Obolon-Arena",
+            "edad_promedia_plantilla": "27.3",
+            "tamaño_plantilla": "24",
+            "capacidad_estadio": "5103"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "39722",
+        "fields": {
+            "nombre": "Erzurumspor FK",
+            "pais": "Turquia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/39722.png",
+            "nombre_estadio": "Erzurum Kazım Karabekir",
+            "edad_promedia_plantilla": "26.1",
+            "tamaño_plantilla": "28",
+            "capacidad_estadio": "23700"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "40",
+        "fields": {
+            "nombre": "FC Girondins Bordeaux",
+            "pais": "Francia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/40.png",
+            "nombre_estadio": "Matmut Atlantique",
+            "edad_promedia_plantilla": "22.7",
+            "tamaño_plantilla": "26",
+            "capacidad_estadio": "42115"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "41274",
+        "fields": {
+            "nombre": "Beerschot V.A.",
+            "pais": "Belgica",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/41274.png",
+            "nombre_estadio": "Olympisch Stadion",
+            "edad_promedia_plantilla": "23.9",
+            "tamaño_plantilla": "26",
+            "capacidad_estadio": "12771"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "43",
+        "fields": {
+            "nombre": "Heart of Midlothian Football Club",
+            "pais": "Escocia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/43.png",
+            "nombre_estadio": "Tynecastle Park",
+            "edad_promedia_plantilla": "25.9",
+            "tamaño_plantilla": "26",
+            "capacidad_estadio": "19852"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "47",
+        "fields": {
+            "nombre": "Iraklis Thessaloniki",
+            "pais": "Grecia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/47.png",
+            "nombre_estadio": "Kaftanzoglio Stadio",
+            "edad_promedia_plantilla": "24.3",
+            "tamaño_plantilla": "27",
+            "capacidad_estadio": "27770"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "4750",
+        "fields": {
+            "nombre": "SC Olhanense",
+            "pais": "Portugal",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/4750.png",
+            "nombre_estadio": "Estádio José Arcanjo",
+            "edad_promedia_plantilla": "23.4",
+            "tamaño_plantilla": "10",
+            "capacidad_estadio": "10080"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "589",
+        "fields": {
+            "nombre": "Antalyaspor",
+            "pais": "Turquia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/589.png",
+            "nombre_estadio": "Corendon Airlines Park Antalya Stadı",
+            "edad_promedia_plantilla": "26.5",
+            "tamaño_plantilla": "29",
+            "capacidad_estadio": "32537"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "6",
+        "fields": {
+            "nombre": "Adanaspor",
+            "pais": "Turquia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/6.png",
+            "nombre_estadio": "Yeni Adana Stadyumu",
+            "edad_promedia_plantilla": "23.9",
+            "tamaño_plantilla": "10",
+            "capacidad_estadio": "33000"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "6195",
+        "fields": {
+            "nombre": "Società Sportiva Calcio Napoli",
+            "pais": "Italia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/6195.png",
+            "nombre_estadio": "Stadio Diego Armando Maradona",
+            "edad_promedia_plantilla": "26.9",
+            "tamaño_plantilla": "26",
+            "capacidad_estadio": "54726"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "82",
+        "fields": {
+            "nombre": "Verein für Leibesübungen Wolfsburg",
+            "pais": "Alemania",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/82.png",
+            "nombre_estadio": "Volkswagen Arena",
+            "edad_promedia_plantilla": "25.1",
+            "tamaño_plantilla": "27",
+            "capacidad_estadio": "28917"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "1050",
+        "fields": {
+            "nombre": "Villarreal Club de Fútbol S.A.D.",
+            "pais": "España",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/1050.png",
+            "nombre_estadio": "La Cerámica",
+            "edad_promedia_plantilla": "28.0",
+            "tamaño_plantilla": "29",
+            "capacidad_estadio": "23500"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "1096",
+        "fields": {
+            "nombre": "Royal Antwerp Football Club",
+            "pais": "Belgica",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/1096.png",
+            "nombre_estadio": "De Bosuil",
+            "edad_promedia_plantilla": "24.4",
+            "tamaño_plantilla": "25",
+            "capacidad_estadio": "16144"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "1147",
+        "fields": {
+            "nombre": "AC Ajaccio",
+            "pais": "Francia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/1147.png",
+            "nombre_estadio": "Stade François-Coty",
+            "edad_promedia_plantilla": "27.5",
+            "tamaño_plantilla": "24",
+            "capacidad_estadio": "10446"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "130",
+        "fields": {
+            "nombre": "Parma Calcio 1913",
+            "pais": "Italia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/130.png",
+            "nombre_estadio": "Ennio Tardini",
+            "edad_promedia_plantilla": "24.9",
+            "tamaño_plantilla": "30",
+            "capacidad_estadio": "22352"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "1429",
+        "fields": {
+            "nombre": "Cesena FC",
+            "pais": "Italia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/1429.png",
+            "nombre_estadio": "Orogel Stadium - Dino Manuzzi",
+            "edad_promedia_plantilla": "26.0",
+            "tamaño_plantilla": "28",
+            "capacidad_estadio": "23860"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "15",
+        "fields": {
+            "nombre": "Bayer 04 Leverkusen Fußball",
+            "pais": "Alemania",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/15.png",
+            "nombre_estadio": "BayArena",
+            "edad_promedia_plantilla": "24.7",
+            "tamaño_plantilla": "27",
+            "capacidad_estadio": "30210"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "16247",
+        "fields": {
+            "nombre": "PFK Stal Kamyanske (-2018)",
+            "pais": "Ucrania",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/16247.png",
+            "nombre_estadio": "Obolon",
+            "edad_promedia_plantilla": "0.0",
+            "tamaño_plantilla": "0",
+            "capacidad_estadio": "5100"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "20100",
+        "fields": {
+            "nombre": "FC Vestsjaelland",
+            "pais": "Dinamarca",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/20100.png",
+            "nombre_estadio": "Harboe Arena",
+            "edad_promedia_plantilla": "0.0",
+            "tamaño_plantilla": "0",
+            "capacidad_estadio": "10000"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "20698",
+        "fields": {
+            "nombre": "Balikesirspor",
+            "pais": "Turquia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/20698.png",
+            "nombre_estadio": "Balıkesir Atatürk",
+            "edad_promedia_plantilla": "22.0",
+            "tamaño_plantilla": "22",
+            "capacidad_estadio": "15800"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "2323",
+        "fields": {
+            "nombre": "Orduspor",
+            "pais": "Turquia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/2323.png",
+            "nombre_estadio": "19 Eylül Stadyum",
+            "edad_promedia_plantilla": "20.0",
+            "tamaño_plantilla": "3",
+            "capacidad_estadio": "11024"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "2722",
+        "fields": {
+            "nombre": "SPAL",
+            "pais": "Italia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/2722.png",
+            "nombre_estadio": "Paolo Mazza",
+            "edad_promedia_plantilla": "26.0",
+            "tamaño_plantilla": "32",
+            "capacidad_estadio": "16134"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "276",
+        "fields": {
+            "nombre": "Verona Hellas Football Club",
+            "pais": "Italia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/276.png",
+            "nombre_estadio": "Marcantonio Bentegodi",
+            "edad_promedia_plantilla": "25.0",
+            "tamaño_plantilla": "27",
+            "capacidad_estadio": "39211"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "3329",
+        "fields": {
+            "nombre": "Futebol Clube de Famalicão",
+            "pais": "Portugal",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/3329.png",
+            "nombre_estadio": "Estádio Municipal de Famalicão",
+            "edad_promedia_plantilla": "23.3",
+            "tamaño_plantilla": "28",
+            "capacidad_estadio": "5305"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "3691",
+        "fields": {
+            "nombre": "Tom Tomsk",
+            "pais": "Rusia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/3691.png",
+            "nombre_estadio": "Trud",
+            "edad_promedia_plantilla": "0.0",
+            "tamaño_plantilla": "0",
+            "capacidad_estadio": "10028"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "370",
+        "fields": {
+            "nombre": "Aberdeen Football Club",
+            "pais": "Escocia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/370.png",
+            "nombre_estadio": "Pittodrie Stadium",
+            "edad_promedia_plantilla": "25.7",
+            "tamaño_plantilla": "23",
+            "capacidad_estadio": "22199"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "475",
+        "fields": {
+            "nombre": "Koninklijke Sint-Truidense Voetbalvereniging",
+            "pais": "Belgica",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/475.png",
+            "nombre_estadio": "Daio Wasabi Stayen Stadium",
+            "edad_promedia_plantilla": "23.3",
+            "tamaño_plantilla": "28",
+            "capacidad_estadio": "14600"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "49364",
+        "fields": {
+            "nombre": "Ingulets Petrove",
+            "pais": "Ucrania",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/49364.png",
+            "nombre_estadio": "Stadion Ingulets",
+            "edad_promedia_plantilla": "25.7",
+            "tamaño_plantilla": "23",
+            "capacidad_estadio": "1720"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "498",
+        "fields": {
+            "nombre": "KSC Lokeren (- 2020)",
+            "pais": "Belgica",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/498.png",
+            "nombre_estadio": "Daknamstadion",
+            "edad_promedia_plantilla": "0.0",
+            "tamaño_plantilla": "0",
+            "capacidad_estadio": "12000"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "524",
+        "fields": {
+            "nombre": "Gaziantepspor (- 2020)",
+            "pais": "Turquia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/524.png",
+            "nombre_estadio": "Gaziantep Stadyumu",
+            "edad_promedia_plantilla": "0.0",
+            "tamaño_plantilla": "0",
+            "capacidad_estadio": "33502"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "553",
+        "fields": {
+            "nombre": "Ionikos Nikeas",
+            "pais": "Grecia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/553.png",
+            "nombre_estadio": "Dimotiko Gipedo Neapolis",
+            "edad_promedia_plantilla": "28.4",
+            "tamaño_plantilla": "17",
+            "capacidad_estadio": "5500"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "642",
+        "fields": {
+            "nombre": "De Graafschap Doetinchem",
+            "pais": "Paises Bajos",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/642.png",
+            "nombre_estadio": "Stadion \"De Vijverberg\"",
+            "edad_promedia_plantilla": "23.7",
+            "tamaño_plantilla": "30",
+            "capacidad_estadio": "12600"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "6676",
+        "fields": {
+            "nombre": "A.G.S Asteras Tripolis",
+            "pais": "Grecia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/6676.png",
+            "nombre_estadio": "Gipedo Theodoros Kolokotronis",
+            "edad_promedia_plantilla": "26.5",
+            "tamaño_plantilla": "30",
+            "capacidad_estadio": "7423"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "703",
+        "fields": {
+            "nombre": "Nottingham Forest Football Club",
+            "pais": "Inglaterra",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/703.png",
+            "nombre_estadio": "The City Ground",
+            "edad_promedia_plantilla": "26.9",
+            "tamaño_plantilla": "29",
+            "capacidad_estadio": "30445"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "80",
+        "fields": {
+            "nombre": "Verein für Leibesübungen Bochum 1848 – Fußballgemeinschaft",
+            "pais": "Alemania",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/80.png",
+            "nombre_estadio": "Vonovia Ruhrstadion",
+            "edad_promedia_plantilla": "27.9",
+            "tamaño_plantilla": "29",
+            "capacidad_estadio": "26000"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "976",
+        "fields": {
+            "nombre": "CF União Madeira (-2021)",
+            "pais": "Portugal",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/976.png",
+            "nombre_estadio": "Centro Desportivo da Madeira",
+            "edad_promedia_plantilla": "0.0",
+            "tamaño_plantilla": "0",
+            "capacidad_estadio": "2500"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "1031",
+        "fields": {
+            "nombre": "Luton Town Football Club",
+            "pais": "Inglaterra",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/1031.png",
+            "nombre_estadio": "Kenilworth Road",
+            "edad_promedia_plantilla": "27.4",
+            "tamaño_plantilla": "28",
+            "capacidad_estadio": "11050"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "1071",
+        "fields": {
+            "nombre": "Wigan Athletic",
+            "pais": "Inglaterra",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/1071.png",
+            "nombre_estadio": "DW Stadium",
+            "edad_promedia_plantilla": "24.0",
+            "tamaño_plantilla": "26",
+            "capacidad_estadio": "25133"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "1090",
+        "fields": {
+            "nombre": "Alkmaar Zaanstreek",
+            "pais": "Paises Bajos",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/1090.png",
+            "nombre_estadio": "AFAS Stadion",
+            "edad_promedia_plantilla": "22.7",
+            "tamaño_plantilla": "29",
+            "capacidad_estadio": "19478"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "1110",
+        "fields": {
+            "nombre": "Huddersfield Town",
+            "pais": "Inglaterra",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/1110.png",
+            "nombre_estadio": "John Smith's Stadium",
+            "edad_promedia_plantilla": "26.7",
+            "tamaño_plantilla": "33",
+            "capacidad_estadio": "24500"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "11126",
+        "fields": {
+            "nombre": "Mordovia Saransk (-2020)",
+            "pais": "Rusia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/11126.png",
+            "nombre_estadio": "Mordovia Arena",
+            "edad_promedia_plantilla": "0.0",
+            "tamaño_plantilla": "0",
+            "capacidad_estadio": "44442"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "1159",
+        "fields": {
+            "nombre": "AS Nancy-Lorraine",
+            "pais": "Francia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/1159.png",
+            "nombre_estadio": "Stade Marcel-Picot",
+            "edad_promedia_plantilla": "25.7",
+            "tamaño_plantilla": "27",
+            "capacidad_estadio": "20087"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "12438",
+        "fields": {
+            "nombre": "Volga Nizhniy Novgorod (- 2016)",
+            "pais": "Rusia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/12438.png",
+            "nombre_estadio": "Zentralstadion Lokomotiv",
+            "edad_promedia_plantilla": "0.0",
+            "tamaño_plantilla": "0",
+            "capacidad_estadio": "17856"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "1301",
+        "fields": {
+            "nombre": "CS Marítimo",
+            "pais": "Portugal",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/1301.png",
+            "nombre_estadio": "Estádio do Marítimo",
+            "edad_promedia_plantilla": "27.2",
+            "tamaño_plantilla": "29",
+            "capacidad_estadio": "10600"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "1304",
+        "fields": {
+            "nombre": "Heracles Almelo",
+            "pais": "Paises Bajos",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/1304.png",
+            "nombre_estadio": "Erve Asito",
+            "edad_promedia_plantilla": "24.7",
+            "tamaño_plantilla": "31",
+            "capacidad_estadio": "12080"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "1421",
+        "fields": {
+            "nombre": "Stade de Reims",
+            "pais": "Francia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/1421.png",
+            "nombre_estadio": "Stade Auguste-Delaune",
+            "edad_promedia_plantilla": "25.2",
+            "tamaño_plantilla": "24",
+            "capacidad_estadio": "21684"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "1423",
+        "fields": {
+            "nombre": "Valenciennes FC",
+            "pais": "Francia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/1423.png",
+            "nombre_estadio": "Stade du Hainaut",
+            "edad_promedia_plantilla": "23.6",
+            "tamaño_plantilla": "30",
+            "capacidad_estadio": "25000"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "162",
+        "fields": {
+            "nombre": "Association sportive de Monaco Football Club",
+            "pais": "Francia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/162.png",
+            "nombre_estadio": "Stade Louis-II",
+            "edad_promedia_plantilla": "24.3",
+            "tamaño_plantilla": "24",
+            "capacidad_estadio": "17000"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "20",
+        "fields": {
+            "nombre": "Bursaspor",
+            "pais": "Turquia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/20.png",
+            "nombre_estadio": "Bursa Büyükşehir Belediye Stadyumu",
+            "edad_promedia_plantilla": "21.4",
+            "tamaño_plantilla": "26",
+            "capacidad_estadio": "43361"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "235",
+        "fields": {
+            "nombre": "Rooms Katholieke Combinatie Waalwijk",
+            "pais": "Paises Bajos",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/235.png",
+            "nombre_estadio": "Mandemakers Stadion",
+            "edad_promedia_plantilla": "25.7",
+            "tamaño_plantilla": "27",
+            "capacidad_estadio": "7508"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "24",
+        "fields": {
+            "nombre": "Eintracht Frankfurt Fußball AG",
+            "pais": "Alemania",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/24.png",
+            "nombre_estadio": "Deutsche Bank Park",
+            "edad_promedia_plantilla": "24.2",
+            "tamaño_plantilla": "34",
+            "capacidad_estadio": "56500"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "2441",
+        "fields": {
+            "nombre": "Athlitiki Enosi Konstantinoupoleos",
+            "pais": "Grecia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/2441.png",
+            "nombre_estadio": "OPAP Arena",
+            "edad_promedia_plantilla": "27.7",
+            "tamaño_plantilla": "32",
+            "capacidad_estadio": "32500"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "2861",
+        "fields": {
+            "nombre": "KV Oostende",
+            "pais": "Belgica",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/2861.png",
+            "nombre_estadio": "Diaz Arena",
+            "edad_promedia_plantilla": "23.3",
+            "tamaño_plantilla": "26",
+            "capacidad_estadio": "8432"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "294",
+        "fields": {
+            "nombre": "Sport Lisboa e Benfica",
+            "pais": "Portugal",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/294.png",
+            "nombre_estadio": "Estádio da Luz",
+            "edad_promedia_plantilla": "24.5",
+            "tamaño_plantilla": "24",
+            "capacidad_estadio": "64642"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "3060",
+        "fields": {
+            "nombre": "APS Atromitos Athinon",
+            "pais": "Grecia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/3060.png",
+            "nombre_estadio": "Stadio Peristeriou",
+            "edad_promedia_plantilla": "25.7",
+            "tamaño_plantilla": "30",
+            "capacidad_estadio": "9050"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "331",
+        "fields": {
+            "nombre": "Club Atlético Osasuna",
+            "pais": "España",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/331.png",
+            "nombre_estadio": "El Sadar",
+            "edad_promedia_plantilla": "27.8",
+            "tamaño_plantilla": "21",
+            "capacidad_estadio": "23576"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "3336",
+        "fields": {
+            "nombre": "Desportivo Aves (- 2020)",
+            "pais": "Portugal",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/3336.png",
+            "nombre_estadio": "Estádio CD das Aves",
+            "edad_promedia_plantilla": "0.0",
+            "tamaño_plantilla": "0",
+            "capacidad_estadio": "5441"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "3709",
+        "fields": {
+            "nombre": "Getafe Club de Fútbol S.A.D. Team Dubai",
+            "pais": "España",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/3709.png",
+            "nombre_estadio": "Coliseum",
+            "edad_promedia_plantilla": "26.3",
+            "tamaño_plantilla": "22",
+            "capacidad_estadio": "16800"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "383",
+        "fields": {
+            "nombre": "Eindhovense Voetbalvereniging Philips Sport Vereniging",
+            "pais": "Paises Bajos",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/383.png",
+            "nombre_estadio": "Philips Stadion",
+            "edad_promedia_plantilla": "25.2",
+            "tamaño_plantilla": "26",
+            "capacidad_estadio": "35000"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "499",
+        "fields": {
+            "nombre": "Stichting Betaald Voetbal Vitesse Arnhem",
+            "pais": "Paises Bajos",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/499.png",
+            "nombre_estadio": "GelreDome",
+            "edad_promedia_plantilla": "22.9",
+            "tamaño_plantilla": "31",
+            "capacidad_estadio": "21248"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "610",
+        "fields": {
+            "nombre": "AFC Ajax Amsterdam",
+            "pais": "Paises Bajos",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/610.png",
+            "nombre_estadio": "Johan Cruijff ArenA",
+            "edad_promedia_plantilla": "22.9",
+            "tamaño_plantilla": "32",
+            "capacidad_estadio": "55600"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "6414",
+        "fields": {
+            "nombre": "Metalist Kharkiv (- 2016)",
+            "pais": "Ucrania",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/6414.png",
+            "nombre_estadio": "OSK Metalist",
+            "edad_promedia_plantilla": "0.0",
+            "tamaño_plantilla": "0",
+            "capacidad_estadio": "38685"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "6993",
+        "fields": {
+            "nombre": "FK Mariupol",
+            "pais": "Ucrania",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/6993.png",
+            "nombre_estadio": "Stadion im. Volodymyra Boyko",
+            "edad_promedia_plantilla": "0.0",
+            "tamaño_plantilla": "0",
+            "capacidad_estadio": "12680"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "750",
+        "fields": {
+            "nombre": "FC Sochaux-Montbéliard",
+            "pais": "Francia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/750.png",
+            "nombre_estadio": "Stade Auguste-Bonal",
+            "edad_promedia_plantilla": "23.0",
+            "tamaño_plantilla": "29",
+            "capacidad_estadio": "20005"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "762",
+        "fields": {
+            "nombre": "Newcastle United Football Club",
+            "pais": "Inglaterra",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/762.png",
+            "nombre_estadio": "St James' Park",
+            "edad_promedia_plantilla": "27.4",
+            "tamaño_plantilla": "28",
+            "capacidad_estadio": "52338"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "825",
+        "fields": {
+            "nombre": "Eskisehirspor",
+            "pais": "Turquia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/825.png",
+            "nombre_estadio": "Eskişehir Yeni Stadyum",
+            "edad_promedia_plantilla": "23.9",
+            "tamaño_plantilla": "41",
+            "capacidad_estadio": "34930"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "1041",
+        "fields": {
+            "nombre": "Olympique Lyonnais",
+            "pais": "Francia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/1041.png",
+            "nombre_estadio": "Groupama Stadium",
+            "edad_promedia_plantilla": "25.3",
+            "tamaño_plantilla": "28",
+            "capacidad_estadio": "59186"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "10690",
+        "fields": {
+            "nombre": "FK Zarya Lugansk",
+            "pais": "Ucrania",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/10690.png",
+            "nombre_estadio": "Livyi Bereg Arena",
+            "edad_promedia_plantilla": "24.0",
+            "tamaño_plantilla": "32",
+            "capacidad_estadio": "4700"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "1084",
+        "fields": {
+            "nombre": "Málaga CF",
+            "pais": "España",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/1084.png",
+            "nombre_estadio": "La Rosaleda",
+            "edad_promedia_plantilla": "27.9",
+            "tamaño_plantilla": "27",
+            "capacidad_estadio": "30044"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "1148",
+        "fields": {
+            "nombre": "Brentford Football Club",
+            "pais": "Inglaterra",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/1148.png",
+            "nombre_estadio": "Gtech Community Stadium",
+            "edad_promedia_plantilla": "25.5",
+            "tamaño_plantilla": "30",
+            "capacidad_estadio": "17250"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "1162",
+        "fields": {
+            "nombre": "SM Caen",
+            "pais": "Francia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/1162.png",
+            "nombre_estadio": "Stade Michel-d'Ornano",
+            "edad_promedia_plantilla": "25.7",
+            "tamaño_plantilla": "27",
+            "capacidad_estadio": "20500"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "1184",
+        "fields": {
+            "nombre": "Koninklijke Racing Club Genk",
+            "pais": "Belgica",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/1184.png",
+            "nombre_estadio": "Cegeka Arena",
+            "edad_promedia_plantilla": "23.0",
+            "tamaño_plantilla": "26",
+            "capacidad_estadio": "24956"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "1186",
+        "fields": {
+            "nombre": "Torpedo Moscow",
+            "pais": "Rusia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/1186.png",
+            "nombre_estadio": "Luzhniki Stadium",
+            "edad_promedia_plantilla": "25.6",
+            "tamaño_plantilla": "28",
+            "capacidad_estadio": "81000"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "128",
+        "fields": {
+            "nombre": "AO Xanthi",
+            "pais": "Grecia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/128.png",
+            "nombre_estadio": "Xanthi Arena",
+            "edad_promedia_plantilla": "0.0",
+            "tamaño_plantilla": "0",
+            "capacidad_estadio": "7361"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "1283",
+        "fields": {
+            "nombre": "FC Emmen",
+            "pais": "Paises Bajos",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/1283.png",
+            "nombre_estadio": "De Oude Meerdijk",
+            "edad_promedia_plantilla": "25.6",
+            "tamaño_plantilla": "17",
+            "capacidad_estadio": "8309"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "142",
+        "fields": {
+            "nombre": "Real Zaragoza",
+            "pais": "España",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/142.png",
+            "nombre_estadio": "La Romareda",
+            "edad_promedia_plantilla": "26.0",
+            "tamaño_plantilla": "23",
+            "capacidad_estadio": "33608"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "16",
+        "fields": {
+            "nombre": "Borussia Dortmund",
+            "pais": "Alemania",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/16.png",
+            "nombre_estadio": "SIGNAL IDUNA PARK",
+            "edad_promedia_plantilla": "25.4",
+            "tamaño_plantilla": "28",
+            "capacidad_estadio": "81365"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "202",
+        "fields": {
+            "nombre": "FC Groningen",
+            "pais": "Paises Bajos",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/202.png",
+            "nombre_estadio": "Euroborg",
+            "edad_promedia_plantilla": "22.9",
+            "tamaño_plantilla": "29",
+            "capacidad_estadio": "22555"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "2288",
+        "fields": {
+            "nombre": "Swansea City",
+            "pais": "Inglaterra",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/2288.png",
+            "nombre_estadio": "Swansea.com Stadium",
+            "edad_promedia_plantilla": "24.8",
+            "tamaño_plantilla": "22",
+            "capacidad_estadio": "21088"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "237",
+        "fields": {
+            "nombre": "Real Club Deportivo Mallorca S.A.D.",
+            "pais": "España",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/237.png",
+            "nombre_estadio": "Mallorca Son Moix",
+            "edad_promedia_plantilla": "28.5",
+            "tamaño_plantilla": "24",
+            "capacidad_estadio": "26020"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "2381",
+        "fields": {
+            "nombre": "Sivasspor Kulübü",
+            "pais": "Turquia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/2381.png",
+            "nombre_estadio": "Yeni 4 Eylül Stadı",
+            "edad_promedia_plantilla": "28.6",
+            "tamaño_plantilla": "28",
+            "capacidad_estadio": "27532"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "2423",
+        "fields": {
+            "nombre": "CD Santa Clara",
+            "pais": "Portugal",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/2423.png",
+            "nombre_estadio": "Estádio de São Miguel",
+            "edad_promedia_plantilla": "25.4",
+            "tamaño_plantilla": "38",
+            "capacidad_estadio": "12500"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "2425",
+        "fields": {
+            "nombre": "Rio Ave Futebol Clube",
+            "pais": "Portugal",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/2425.png",
+            "nombre_estadio": "Estádio dos Arcos",
+            "edad_promedia_plantilla": "26.7",
+            "tamaño_plantilla": "31",
+            "capacidad_estadio": "5300"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "2451",
+        "fields": {
+            "nombre": "Inverness Caledonian Thistle FC",
+            "pais": "Escocia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/2451.png",
+            "nombre_estadio": "Tulloch Caledonian Stadium",
+            "edad_promedia_plantilla": "24.5",
+            "tamaño_plantilla": "26",
+            "capacidad_estadio": "7750"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "265",
+        "fields": {
+            "nombre": "Panathinaikos Athlitikos Omilos",
+            "pais": "Grecia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/265.png",
+            "nombre_estadio": "Apostolos Nikolaidis",
+            "edad_promedia_plantilla": "28.9",
+            "tamaño_plantilla": "32",
+            "capacidad_estadio": "15000"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "2832",
+        "fields": {
+            "nombre": "Gaziantep Futbol Kulübü A.Ş.",
+            "pais": "Turquia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/2832.png",
+            "nombre_estadio": "Kalyon Stadyumu",
+            "edad_promedia_plantilla": "27.1",
+            "tamaño_plantilla": "30",
+            "capacidad_estadio": "33502"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "3558",
+        "fields": {
+            "nombre": "GFC Ajaccio",
+            "pais": "Francia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/3558.png",
+            "nombre_estadio": "Stade Ange-Casanova",
+            "edad_promedia_plantilla": "26.8",
+            "tamaño_plantilla": "5",
+            "capacidad_estadio": "4050"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "4102",
+        "fields": {
+            "nombre": "AC Carpi",
+            "pais": "Italia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/4102.png",
+            "nombre_estadio": "Sandro Cabassi",
+            "edad_promedia_plantilla": "23.6",
+            "tamaño_plantilla": "25",
+            "capacidad_estadio": "5510"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "42",
+        "fields": {
+            "nombre": "Hannover 96",
+            "pais": "Alemania",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/42.png",
+            "nombre_estadio": "Heinz-von-Heiden-Arena",
+            "edad_promedia_plantilla": "25.0",
+            "tamaño_plantilla": "28",
+            "capacidad_estadio": "49000"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "641",
+        "fields": {
+            "nombre": "Middlesbrough FC",
+            "pais": "Inglaterra",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/641.png",
+            "nombre_estadio": "Riverside Stadium",
+            "edad_promedia_plantilla": "26.1",
+            "tamaño_plantilla": "25",
+            "capacidad_estadio": "33746"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "667",
+        "fields": {
+            "nombre": "Racing Club de Strasbourg Alsace",
+            "pais": "Francia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/667.png",
+            "nombre_estadio": "Stade de la Meinau",
+            "edad_promedia_plantilla": "24.4",
+            "tamaño_plantilla": "25",
+            "capacidad_estadio": "26109"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "681",
+        "fields": {
+            "nombre": "Real Sociedad de Fútbol S.A.D.",
+            "pais": "España",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/681.png",
+            "nombre_estadio": "Reale Arena",
+            "edad_promedia_plantilla": "25.5",
+            "tamaño_plantilla": "28",
+            "capacidad_estadio": "39313"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "873",
+        "fields": {
+            "nombre": "Crystal Palace Football Club",
+            "pais": "Inglaterra",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/873.png",
+            "nombre_estadio": "Selhurst Park",
+            "edad_promedia_plantilla": "25.9",
+            "tamaño_plantilla": "29",
+            "capacidad_estadio": "26047"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "1032",
+        "fields": {
+            "nombre": "Reading FC",
+            "pais": "Inglaterra",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/1032.png",
+            "nombre_estadio": "Select Car Leasing Stadium",
+            "edad_promedia_plantilla": "23.1",
+            "tamaño_plantilla": "30",
+            "capacidad_estadio": "24161"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "1039",
+        "fields": {
+            "nombre": "Queens Park Rangers",
+            "pais": "Inglaterra",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/1039.png",
+            "nombre_estadio": "Loftus Road Stadium",
+            "edad_promedia_plantilla": "25.9",
+            "tamaño_plantilla": "26",
+            "capacidad_estadio": "18360"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "1244",
+        "fields": {
+            "nombre": "CD Leganés",
+            "pais": "España",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/1244.png",
+            "nombre_estadio": "Butarque",
+            "edad_promedia_plantilla": "28.6",
+            "tamaño_plantilla": "23",
+            "capacidad_estadio": "12454"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "14171",
+        "fields": {
+            "nombre": "Thonon Évian Grand Genève FC",
+            "pais": "Francia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/14171.png",
+            "nombre_estadio": "Stade Camille Fournier",
+            "edad_promedia_plantilla": "27.4",
+            "tamaño_plantilla": "27",
+            "capacidad_estadio": "2500"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "16704",
+        "fields": {
+            "nombre": "FK Krasnodar",
+            "pais": "Rusia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/16704.png",
+            "nombre_estadio": "Stadion Krasnodar",
+            "edad_promedia_plantilla": "25.0",
+            "tamaño_plantilla": "22",
+            "capacidad_estadio": "35179"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "19771",
+        "fields": {
+            "nombre": "Akhisarspor",
+            "pais": "Turquia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/19771.png",
+            "nombre_estadio": "Spor Toto Akhisar Stadyumu",
+            "edad_promedia_plantilla": "21.0",
+            "tamaño_plantilla": "14",
+            "capacidad_estadio": "12139"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "244",
+        "fields": {
+            "nombre": "Olympique de Marseille",
+            "pais": "Francia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/244.png",
+            "nombre_estadio": "Orange Vélodrome",
+            "edad_promedia_plantilla": "25.9",
+            "tamaño_plantilla": "26",
+            "capacidad_estadio": "67394"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "29228",
+        "fields": {
+            "nombre": "Royal Excel Mouscron (-2022)",
+            "pais": "Belgica",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/29228.png",
+            "nombre_estadio": "Le Canonnier",
+            "edad_promedia_plantilla": "0.0",
+            "tamaño_plantilla": "0",
+            "capacidad_estadio": "10830"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "3216",
+        "fields": {
+            "nombre": "Mersin Talimyurdu SK",
+            "pais": "Turquia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/3216.png",
+            "nombre_estadio": "Mersin Stadyumu",
+            "edad_promedia_plantilla": "0.0",
+            "tamaño_plantilla": "0",
+            "capacidad_estadio": "25000"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "3508",
+        "fields": {
+            "nombre": "SV Zulte Waregem",
+            "pais": "Belgica",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/3508.png",
+            "nombre_estadio": "Elindus Arena",
+            "edad_promedia_plantilla": "25.2",
+            "tamaño_plantilla": "25",
+            "capacidad_estadio": "12250"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "354",
+        "fields": {
+            "nombre": "Yellow-Red Koninklijke Voetbalclub Mechelen",
+            "pais": "Belgica",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/354.png",
+            "nombre_estadio": "AFAS Stadion",
+            "edad_promedia_plantilla": "25.1",
+            "tamaño_plantilla": "26",
+            "capacidad_estadio": "16672"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "367",
+        "fields": {
+            "nombre": "Rayo Vallecano de Madrid S.A.D.",
+            "pais": "España",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/367.png",
+            "nombre_estadio": "Campo de Fútbol de Vallecas",
+            "edad_promedia_plantilla": "28.9",
+            "tamaño_plantilla": "25",
+            "capacidad_estadio": "14708"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "379",
+        "fields": {
+            "nombre": "West Ham United Football Club",
+            "pais": "Inglaterra",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/379.png",
+            "nombre_estadio": "London Stadium",
+            "edad_promedia_plantilla": "28.4",
+            "tamaño_plantilla": "22",
+            "capacidad_estadio": "62500"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "380",
+        "fields": {
+            "nombre": "U.S. Salernitana 1919 S.r.l.",
+            "pais": "Italia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/380.png",
+            "nombre_estadio": "Arechi",
+            "edad_promedia_plantilla": "26.8",
+            "tamaño_plantilla": "31",
+            "capacidad_estadio": "29739"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "403",
+        "fields": {
+            "nombre": "Willem II Tilburg",
+            "pais": "Paises Bajos",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/403.png",
+            "nombre_estadio": "Koning Willem II Stadion",
+            "edad_promedia_plantilla": "25.9",
+            "tamaño_plantilla": "27",
+            "capacidad_estadio": "14700"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "40426",
+        "fields": {
+            "nombre": "FC Tosno (-2018)",
+            "pais": "Rusia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/40426.png",
+            "nombre_estadio": "Petrovsky",
+            "edad_promedia_plantilla": "0.0",
+            "tamaño_plantilla": "0",
+            "capacidad_estadio": "20985"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "41",
+        "fields": {
+            "nombre": "Hamburger SV",
+            "pais": "Alemania",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/41.png",
+            "nombre_estadio": "Volksparkstadion",
+            "edad_promedia_plantilla": "23.6",
+            "tamaño_plantilla": "30",
+            "capacidad_estadio": "57000"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "443",
+        "fields": {
+            "nombre": "Vejle Boldklub",
+            "pais": "Dinamarca",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/443.png",
+            "nombre_estadio": "Vejle Stadion",
+            "edad_promedia_plantilla": "25.6",
+            "tamaño_plantilla": "26",
+            "capacidad_estadio": "10418"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "5724",
+        "fields": {
+            "nombre": "Randers Fodbold Club",
+            "pais": "Dinamarca",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/5724.png",
+            "nombre_estadio": "Cepheus Park Randers",
+            "edad_promedia_plantilla": "24.7",
+            "tamaño_plantilla": "29",
+            "capacidad_estadio": "10300"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "601",
+        "fields": {
+            "nombre": "Koninklijke Voetbalclub Kortrijk",
+            "pais": "Belgica",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/601.png",
+            "nombre_estadio": "Guldensporenstadion",
+            "edad_promedia_plantilla": "24.0",
+            "tamaño_plantilla": "28",
+            "capacidad_estadio": "9399"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "79",
+        "fields": {
+            "nombre": "Verein für Bewegungsspiele Stuttgart 1893",
+            "pais": "Alemania",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/79.png",
+            "nombre_estadio": "MHPArena Stuttgart",
+            "edad_promedia_plantilla": "24.1",
+            "tamaño_plantilla": "28",
+            "capacidad_estadio": "60449"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "86",
+        "fields": {
+            "nombre": "Sportverein Werder Bremen von 1899",
+            "pais": "Alemania",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/86.png",
+            "nombre_estadio": "Wohninvest-Weserstadion",
+            "edad_promedia_plantilla": "26.0",
+            "tamaño_plantilla": "26",
+            "capacidad_estadio": "42100"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "931",
+        "fields": {
+            "nombre": "Fulham Football Club",
+            "pais": "Inglaterra",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/931.png",
+            "nombre_estadio": "Craven Cottage",
+            "edad_promedia_plantilla": "28.0",
+            "tamaño_plantilla": "24",
+            "capacidad_estadio": "25700"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "964",
+        "fields": {
+            "nombre": "AO FK Zenit Sankt-Peterburg",
+            "pais": "Rusia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/964.png",
+            "nombre_estadio": "Gazprom Arena",
+            "edad_promedia_plantilla": "26.3",
+            "tamaño_plantilla": "25",
+            "capacidad_estadio": "63026"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "1123",
+        "fields": {
+            "nombre": "Norwich City",
+            "pais": "Inglaterra",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/1123.png",
+            "nombre_estadio": "Carrow Road",
+            "edad_promedia_plantilla": "26.0",
+            "tamaño_plantilla": "25",
+            "capacidad_estadio": "27244"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "1268",
+        "fields": {
+            "nombre": "ADO Den Haag",
+            "pais": "Paises Bajos",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/1268.png",
+            "nombre_estadio": "Bingoal Stadion",
+            "edad_promedia_plantilla": "23.5",
+            "tamaño_plantilla": "34",
+            "capacidad_estadio": "15000"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "1506",
+        "fields": {
+            "nombre": "Kardemir Karabükspor",
+            "pais": "Turquia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/1506.png",
+            "nombre_estadio": "Dr. Necmettin Şeyhoğlu",
+            "edad_promedia_plantilla": "0.0",
+            "tamaño_plantilla": "0",
+            "capacidad_estadio": "12400"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "1531",
+        "fields": {
+            "nombre": "Elche CF",
+            "pais": "España",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/1531.png",
+            "nombre_estadio": "Manuel Martínez Valero",
+            "edad_promedia_plantilla": "27.3",
+            "tamaño_plantilla": "18",
+            "capacidad_estadio": "31388"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "2282",
+        "fields": {
+            "nombre": "Club Brugge Koninklijke Voetbalvereniging",
+            "pais": "Belgica",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/2282.png",
+            "nombre_estadio": "Jan Breydel-Stadion",
+            "edad_promedia_plantilla": "24.6",
+            "tamaño_plantilla": "27",
+            "capacidad_estadio": "29062"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "2293",
+        "fields": {
+            "nombre": "Konyaspor",
+            "pais": "Turquia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/2293.png",
+            "nombre_estadio": "Medaş Konya Büyükşehir Stadyumu",
+            "edad_promedia_plantilla": "27.0",
+            "tamaño_plantilla": "31",
+            "capacidad_estadio": "42000"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "23611",
+        "fields": {
+            "nombre": "Olimpik Donetsk",
+            "pais": "Ucrania",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/23611.png",
+            "nombre_estadio": "NTK im. B. M. Bannikova",
+            "edad_promedia_plantilla": "0.0",
+            "tamaño_plantilla": "0",
+            "capacidad_estadio": "1678"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "2431",
+        "fields": {
+            "nombre": "Club Football Estrela da Amadora",
+            "pais": "Portugal",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/2431.png",
+            "nombre_estadio": "Estádio José Gomes",
+            "edad_promedia_plantilla": "26.4",
+            "tamaño_plantilla": "33",
+            "capacidad_estadio": "9288"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "2698",
+        "fields": {
+            "nombre": "FC Rubin Kazan",
+            "pais": "Rusia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/2698.png",
+            "nombre_estadio": "Ak Bars Arena",
+            "edad_promedia_plantilla": "26.2",
+            "tamaño_plantilla": "27",
+            "capacidad_estadio": "45379"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "2760",
+        "fields": {
+            "nombre": "Partick Thistle FC",
+            "pais": "Escocia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/2760.png",
+            "nombre_estadio": "The Energy Check Stadium at Firhill",
+            "edad_promedia_plantilla": "27.9",
+            "tamaño_plantilla": "19",
+            "capacidad_estadio": "10102"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "2944",
+        "fields": {
+            "nombre": "Ankaraspor",
+            "pais": "Turquia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/2944.png",
+            "nombre_estadio": "Osmanlı Stadı",
+            "edad_promedia_plantilla": "23.8",
+            "tamaño_plantilla": "30",
+            "capacidad_estadio": "19626"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "36",
+        "fields": {
+            "nombre": "Fenerbahçe Spor Kulübü",
+            "pais": "Turquia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/36.png",
+            "nombre_estadio": "Ülker Stadyumu FB Şükrü Saraçoğlu Spor Kompleksi",
+            "edad_promedia_plantilla": "28.3",
+            "tamaño_plantilla": "27",
+            "capacidad_estadio": "47834"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "385",
+        "fields": {
+            "nombre": "Fortuna Sittardia Combinatie",
+            "pais": "Paises Bajos",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/385.png",
+            "nombre_estadio": "Fortuna Sittard Stadion",
+            "edad_promedia_plantilla": "25.8",
+            "tamaño_plantilla": "26",
+            "capacidad_estadio": "12500"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "468",
+        "fields": {
+            "nombre": "Sparta Rotterdam",
+            "pais": "Paises Bajos",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/468.png",
+            "nombre_estadio": "Sparta-stadion - Het Kasteel",
+            "edad_promedia_plantilla": "24.0",
+            "tamaño_plantilla": "24",
+            "capacidad_estadio": "11026"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "583",
+        "fields": {
+            "nombre": "Paris Saint-Germain Football Club",
+            "pais": "Francia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/583.png",
+            "nombre_estadio": "Parc des Princes",
+            "edad_promedia_plantilla": "25.4",
+            "tamaño_plantilla": "29",
+            "capacidad_estadio": "49691"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "621",
+        "fields": {
+            "nombre": "Athletic Club Bilbao",
+            "pais": "España",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/621.png",
+            "nombre_estadio": "San Mamés",
+            "edad_promedia_plantilla": "27.2",
+            "tamaño_plantilla": "25",
+            "capacidad_estadio": "53289"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "65",
+        "fields": {
+            "nombre": "SpVgg Greuther Fürth",
+            "pais": "Alemania",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/65.png",
+            "nombre_estadio": "Sportpark Ronhof | Thomas Sommer",
+            "edad_promedia_plantilla": "24.0",
+            "tamaño_plantilla": "28",
+            "capacidad_estadio": "16626"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "6646",
+        "fields": {
+            "nombre": "Fatih Karagümrük Sportif Faaliyetler San. Tic. A.Ş.",
+            "pais": "Turquia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/6646.png",
+            "nombre_estadio": "Atatürk Olimpiyat",
+            "edad_promedia_plantilla": "26.8",
+            "tamaño_plantilla": "30",
+            "capacidad_estadio": "74753"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "683",
+        "fields": {
+            "nombre": "Olympiakos Syndesmos Filathlon Peiraios",
+            "pais": "Grecia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/683.png",
+            "nombre_estadio": "Stadio Georgios Karaiskakis",
+            "edad_promedia_plantilla": "26.7",
+            "tamaño_plantilla": "32",
+            "capacidad_estadio": "32115"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "723",
+        "fields": {
+            "nombre": "Almere City Football Club",
+            "pais": "Paises Bajos",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/723.png",
+            "nombre_estadio": "Yanmar Stadion",
+            "edad_promedia_plantilla": "24.4",
+            "tamaño_plantilla": "27",
+            "capacidad_estadio": "4500"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "855",
+        "fields": {
+            "nombre": "EA Guingamp",
+            "pais": "Francia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/855.png",
+            "nombre_estadio": "Stade du Roudourou",
+            "edad_promedia_plantilla": "25.4",
+            "tamaño_plantilla": "27",
+            "capacidad_estadio": "18120"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "924",
+        "fields": {
+            "nombre": "İstanbulspor A.Ş.",
+            "pais": "Turquia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/924.png",
+            "nombre_estadio": "Esenyurt Necmi Kadıoğlu Stadyumu",
+            "edad_promedia_plantilla": "24.1",
+            "tamaño_plantilla": "25",
+            "capacidad_estadio": "7500"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "968",
+        "fields": {
+            "nombre": "Koninklijke Voetbal Club Westerlo",
+            "pais": "Belgica",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/968.png",
+            "nombre_estadio": "Het Kuipje",
+            "edad_promedia_plantilla": "23.9",
+            "tamaño_plantilla": "29",
+            "capacidad_estadio": "8035"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "985",
+        "fields": {
+            "nombre": "Manchester United Football Club",
+            "pais": "Inglaterra",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/985.png",
+            "nombre_estadio": "Old Trafford",
+            "edad_promedia_plantilla": "26.3",
+            "tamaño_plantilla": "27",
+            "capacidad_estadio": "74879"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "11282",
+        "fields": {
+            "nombre": "Alanyaspor",
+            "pais": "Turquia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/11282.png",
+            "nombre_estadio": "Kırbıyık Holding Stadyumu",
+            "edad_promedia_plantilla": "26.6",
+            "tamaño_plantilla": "27",
+            "capacidad_estadio": "10128"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "1132",
+        "fields": {
+            "nombre": "Burnley Football Club",
+            "pais": "Inglaterra",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/1132.png",
+            "nombre_estadio": "Turf Moor",
+            "edad_promedia_plantilla": "25.0",
+            "tamaño_plantilla": "29",
+            "capacidad_estadio": "21994"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "1435",
+        "fields": {
+            "nombre": "Go Ahead Eagles",
+            "pais": "Paises Bajos",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/1435.png",
+            "nombre_estadio": "De Adelaarshorst",
+            "edad_promedia_plantilla": "24.4",
+            "tamaño_plantilla": "24",
+            "capacidad_estadio": "9909"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "150",
+        "fields": {
+            "nombre": "Real Betis Balompié S.A.D.",
+            "pais": "España",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/150.png",
+            "nombre_estadio": "Benito Villamarín",
+            "edad_promedia_plantilla": "28.0",
+            "tamaño_plantilla": "26",
+            "capacidad_estadio": "60721"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "152",
+        "fields": {
+            "nombre": "Samsunspor",
+            "pais": "Turquia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/152.png",
+            "nombre_estadio": "Samsun Yeni 19 Mayıs Stadyumu",
+            "edad_promedia_plantilla": "25.9",
+            "tamaño_plantilla": "34",
+            "capacidad_estadio": "33919"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "172",
+        "fields": {
+            "nombre": "Royal Charleroi Sporting Club",
+            "pais": "Belgica",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/172.png",
+            "nombre_estadio": "Stade du Pays de Charleroi",
+            "edad_promedia_plantilla": "24.6",
+            "tamaño_plantilla": "31",
+            "capacidad_estadio": "15000"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "18303",
+        "fields": {
+            "nombre": "FK Oleksandriya",
+            "pais": "Ucrania",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/18303.png",
+            "nombre_estadio": "KSK Nika",
+            "edad_promedia_plantilla": "24.1",
+            "tamaño_plantilla": "31",
+            "capacidad_estadio": "7000"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "2410",
+        "fields": {
+            "nombre": "PFK CSKA Moskva",
+            "pais": "Rusia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/2410.png",
+            "nombre_estadio": "VEB Arena",
+            "edad_promedia_plantilla": "24.8",
+            "tamaño_plantilla": "23",
+            "capacidad_estadio": "30114"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "2503",
+        "fields": {
+            "nombre": "Boavista Futebol Clube",
+            "pais": "Portugal",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/2503.png",
+            "nombre_estadio": "Estádio do Bessa Século XXI",
+            "edad_promedia_plantilla": "24.8",
+            "tamaño_plantilla": "26",
+            "capacidad_estadio": "28263"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "26459",
+        "fields": {
+            "nombre": "NK Veres Rivne",
+            "pais": "Ucrania",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/26459.png",
+            "nombre_estadio": "Stadion Avangard (2022)",
+            "edad_promedia_plantilla": "26.4",
+            "tamaño_plantilla": "30",
+            "capacidad_estadio": "7122"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "2671",
+        "fields": {
+            "nombre": "Panipirotikos Athlitikos Syllogos Giannina",
+            "pais": "Grecia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/2671.png",
+            "nombre_estadio": "Stadio Zosimades",
+            "edad_promedia_plantilla": "26.0",
+            "tamaño_plantilla": "30",
+            "capacidad_estadio": "7652"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "2700",
+        "fields": {
+            "nombre": "Anzhi Makhachkala ( -2022)",
+            "pais": "Rusia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/2700.png",
+            "nombre_estadio": "RDYuSSh MinObrNauki RD Politekh Makhachkala",
+            "edad_promedia_plantilla": "0.0",
+            "tamaño_plantilla": "0",
+            "capacidad_estadio": "1600"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "28095",
+        "fields": {
+            "nombre": "FK Ufa",
+            "pais": "Rusia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/28095.png",
+            "nombre_estadio": "Neftyanik",
+            "edad_promedia_plantilla": "24.4",
+            "tamaño_plantilla": "26",
+            "capacidad_estadio": "15132"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "2999",
+        "fields": {
+            "nombre": "Hamilton Academical FC",
+            "pais": "Escocia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/2999.png",
+            "nombre_estadio": "Fountain of Youth Stadium",
+            "edad_promedia_plantilla": "22.8",
+            "tamaño_plantilla": "28",
+            "capacidad_estadio": "6018"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "3368",
+        "fields": {
+            "nombre": "Levante UD",
+            "pais": "España",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/3368.png",
+            "nombre_estadio": "Ciutat de València",
+            "edad_promedia_plantilla": "27.5",
+            "tamaño_plantilla": "23",
+            "capacidad_estadio": "26354"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "338",
+        "fields": {
+            "nombre": "Futbolniy Klub Dynamo Kyiv",
+            "pais": "Ucrania",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/338.png",
+            "nombre_estadio": "Valeriy Lobanovsky Stadion",
+            "edad_promedia_plantilla": "24.3",
+            "tamaño_plantilla": "26",
+            "capacidad_estadio": "16873"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "371",
+        "fields": {
+            "nombre": "The Celtic Football Club",
+            "pais": "Escocia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/371.png",
+            "nombre_estadio": "Celtic Park",
+            "edad_promedia_plantilla": "25.6",
+            "tamaño_plantilla": "30",
+            "capacidad_estadio": "60832"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "506",
+        "fields": {
+            "nombre": "Juventus Football Club",
+            "pais": "Italia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/506.png",
+            "nombre_estadio": "Allianz Stadium",
+            "edad_promedia_plantilla": "26.3",
+            "tamaño_plantilla": "27",
+            "capacidad_estadio": "41507"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "618",
+        "fields": {
+            "nombre": "AS Saint-Étienne",
+            "pais": "Francia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/618.png",
+            "nombre_estadio": "Stade Geoffroy-Guichard",
+            "edad_promedia_plantilla": "25.1",
+            "tamaño_plantilla": "29",
+            "capacidad_estadio": "42000"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "6992",
+        "fields": {
+            "nombre": "ZAO FK Chornomorets Odessa",
+            "pais": "Ucrania",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/6992.png",
+            "nombre_estadio": "Stadion Chornomorets (2011)",
+            "edad_promedia_plantilla": "24.7",
+            "tamaño_plantilla": "20",
+            "capacidad_estadio": "34164"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "820",
+        "fields": {
+            "nombre": "Genclerbirligi Ankara",
+            "pais": "Turquia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/820.png",
+            "nombre_estadio": "Eryaman Stadyumu",
+            "edad_promedia_plantilla": "26.1",
+            "tamaño_plantilla": "34",
+            "capacidad_estadio": "20560"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "1083",
+        "fields": {
+            "nombre": "FK Rostov",
+            "pais": "Rusia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/1083.png",
+            "nombre_estadio": "Rostov Arena",
+            "edad_promedia_plantilla": "24.3",
+            "tamaño_plantilla": "25",
+            "capacidad_estadio": "45415"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "1095",
+        "fields": {
+            "nombre": "ESTAC Troyes",
+            "pais": "Francia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/1095.png",
+            "nombre_estadio": "Stade de l'Aube",
+            "edad_promedia_plantilla": "23.1",
+            "tamaño_plantilla": "29",
+            "capacidad_estadio": "21877"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "121",
+        "fields": {
+            "nombre": "FK Dinamo Moskva",
+            "pais": "Rusia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/121.png",
+            "nombre_estadio": "VTB-Arena",
+            "edad_promedia_plantilla": "25.6",
+            "tamaño_plantilla": "25",
+            "capacidad_estadio": "25716"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "1420",
+        "fields": {
+            "nombre": "Angers SCO",
+            "pais": "Francia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/1420.png",
+            "nombre_estadio": "Stade Raymond Kopa",
+            "edad_promedia_plantilla": "24.2",
+            "tamaño_plantilla": "27",
+            "capacidad_estadio": "19350"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "16245",
+        "fields": {
+            "nombre": "FK Sevastopol (- 2014)",
+            "pais": "Ucrania",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/16245.png",
+            "nombre_estadio": "SK Sevastopol",
+            "edad_promedia_plantilla": "0.0",
+            "tamaño_plantilla": "0",
+            "capacidad_estadio": "5826"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "22110",
+        "fields": {
+            "nombre": "FC Helsingör",
+            "pais": "Dinamarca",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/22110.png",
+            "nombre_estadio": "Helsingør Ny Stadion",
+            "edad_promedia_plantilla": "24.6",
+            "tamaño_plantilla": "23",
+            "capacidad_estadio": "4000"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "23826",
+        "fields": {
+            "nombre": "RasenBallsport Leipzig",
+            "pais": "Alemania",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/23826.png",
+            "nombre_estadio": "Red Bull Arena",
+            "edad_promedia_plantilla": "25.1",
+            "tamaño_plantilla": "24",
+            "capacidad_estadio": "47069"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "24245",
+        "fields": {
+            "nombre": "Ümraniyespor",
+            "pais": "Turquia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/24245.png",
+            "nombre_estadio": "Ümraniye Belediyesi Şehir Stadı",
+            "edad_promedia_plantilla": "25.8",
+            "tamaño_plantilla": "12",
+            "capacidad_estadio": "3513"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "2687",
+        "fields": {
+            "nombre": "Cádiz Club de Fútbol S.A.D",
+            "pais": "España",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/2687.png",
+            "nombre_estadio": "Nuevo Mirandilla",
+            "edad_promedia_plantilla": "28.5",
+            "tamaño_plantilla": "29",
+            "capacidad_estadio": "21094"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "2696",
+        "fields": {
+            "nombre": "PFK Krylya Sovetov Samara",
+            "pais": "Rusia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/2696.png",
+            "nombre_estadio": "Solidarnost Samara Arena",
+            "edad_promedia_plantilla": "24.8",
+            "tamaño_plantilla": "30",
+            "capacidad_estadio": "42347"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "2919",
+        "fields": {
+            "nombre": "Associazione Calcio Monza",
+            "pais": "Italia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/2919.png",
+            "nombre_estadio": "U-Power Stadium - Brianteo",
+            "edad_promedia_plantilla": "26.5",
+            "tamaño_plantilla": "30",
+            "capacidad_estadio": "16917"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "317",
+        "fields": {
+            "nombre": "Football Club Twente",
+            "pais": "Paises Bajos",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/317.png",
+            "nombre_estadio": "De Grolsch Veste",
+            "edad_promedia_plantilla": "24.2",
+            "tamaño_plantilla": "27",
+            "capacidad_estadio": "30205"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "3209",
+        "fields": {
+            "nombre": "Pendikspor",
+            "pais": "Turquia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/3209.png",
+            "nombre_estadio": "Pendik Stadı",
+            "edad_promedia_plantilla": "27.8",
+            "tamaño_plantilla": "29",
+            "capacidad_estadio": "2500"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "339",
+        "fields": {
+            "nombre": "Dnipro Dnipropetrovsk (-2020)",
+            "pais": "Ucrania",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/339.png",
+            "nombre_estadio": "Meteor",
+            "edad_promedia_plantilla": "0.0",
+            "tamaño_plantilla": "0",
+            "capacidad_estadio": "24381"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "3524",
+        "fields": {
+            "nombre": "Clermont Foot 63",
+            "pais": "Francia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/3524.png",
+            "nombre_estadio": "Stade Gabriel-Montpied",
+            "edad_promedia_plantilla": "26.2",
+            "tamaño_plantilla": "25",
+            "capacidad_estadio": "13000"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "398",
+        "fields": {
+            "nombre": "Società Sportiva Lazio S.p.A.",
+            "pais": "Italia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/398.png",
+            "nombre_estadio": "Olimpico di Roma",
+            "edad_promedia_plantilla": "27.3",
+            "tamaño_plantilla": "27",
+            "capacidad_estadio": "73261"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "4171",
+        "fields": {
+            "nombre": "Benevento Calcio",
+            "pais": "Italia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/4171.png",
+            "nombre_estadio": "Ciro Vigorito",
+            "edad_promedia_plantilla": "26.7",
+            "tamaño_plantilla": "31",
+            "capacidad_estadio": "16867"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "418",
+        "fields": {
+            "nombre": "Real Madrid Club de Fútbol",
+            "pais": "España",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/418.png",
+            "nombre_estadio": "Santiago Bernabéu",
+            "edad_promedia_plantilla": "27.1",
+            "tamaño_plantilla": "24",
+            "capacidad_estadio": "81044"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "49702",
+        "fields": {
+            "nombre": "FK Nizhny Novgorod",
+            "pais": "Rusia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/49702.png",
+            "nombre_estadio": "Nizhny Novgorod Stadium",
+            "edad_promedia_plantilla": "25.7",
+            "tamaño_plantilla": "27",
+            "capacidad_estadio": "44242"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "54189",
+        "fields": {
+            "nombre": "Racing White Daring Molenbeek",
+            "pais": "Belgica",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/54189.png",
+            "nombre_estadio": "Edmond Machtensstadion",
+            "edad_promedia_plantilla": "23.9",
+            "tamaño_plantilla": "33",
+            "capacidad_estadio": "11000"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "6574",
+        "fields": {
+            "nombre": "Unione Sportiva Sassuolo Calcio",
+            "pais": "Italia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/6574.png",
+            "nombre_estadio": "Mapei Stadium - Città del Tricolore",
+            "edad_promedia_plantilla": "26.1",
+            "tamaño_plantilla": "27",
+            "capacidad_estadio": "21584"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "7179",
+        "fields": {
+            "nombre": "CD Tondela",
+            "pais": "Portugal",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/7179.png",
+            "nombre_estadio": "Estádio João Cardoso",
+            "edad_promedia_plantilla": "22.8",
+            "tamaño_plantilla": "26",
+            "capacidad_estadio": "5000"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "720",
+        "fields": {
+            "nombre": "Futebol Clube do Porto",
+            "pais": "Portugal",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/720.png",
+            "nombre_estadio": "Estádio do Dragão",
+            "edad_promedia_plantilla": "26.4",
+            "tamaño_plantilla": "27",
+            "capacidad_estadio": "50033"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "738",
+        "fields": {
+            "nombre": "Le Havre Athletic Club",
+            "pais": "Francia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/738.png",
+            "nombre_estadio": "Stade Océane",
+            "edad_promedia_plantilla": "26.1",
+            "tamaño_plantilla": "23",
+            "capacidad_estadio": "25178"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "89",
+        "fields": {
+            "nombre": "1. FC Union Berlin",
+            "pais": "Alemania",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/89.png",
+            "nombre_estadio": "Stadion An der Alten Försterei",
+            "edad_promedia_plantilla": "27.3",
+            "tamaño_plantilla": "25",
+            "capacidad_estadio": "22012"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "940",
+        "fields": {
+            "nombre": "Real Club Celta de Vigo S. A. D.",
+            "pais": "España",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/940.png",
+            "nombre_estadio": "Abanca Balaídos",
+            "edad_promedia_plantilla": "26.0",
+            "tamaño_plantilla": "27",
+            "capacidad_estadio": "24870"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "1387",
+        "fields": {
+            "nombre": "Siena FC",
+            "pais": "Italia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/1387.png",
+            "nombre_estadio": "Artemio Franchi",
+            "edad_promedia_plantilla": "25.5",
+            "tamaño_plantilla": "20",
+            "capacidad_estadio": "15373"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "1390",
+        "fields": {
+            "nombre": "Cagliari Calcio",
+            "pais": "Italia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/1390.png",
+            "nombre_estadio": "Unipol Domus",
+            "edad_promedia_plantilla": "27.2",
+            "tamaño_plantilla": "27",
+            "capacidad_estadio": "16412"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "1416",
+        "fields": {
+            "nombre": "Amiens SC",
+            "pais": "Francia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/1416.png",
+            "nombre_estadio": "Stade Crédit Agricole la Licorne",
+            "edad_promedia_plantilla": "24.1",
+            "tamaño_plantilla": "24",
+            "capacidad_estadio": "12999"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "1467",
+        "fields": {
+            "nombre": "Göztepe",
+            "pais": "Turquia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/1467.png",
+            "nombre_estadio": "Gürsel Aksel Stadyumu",
+            "edad_promedia_plantilla": "23.3",
+            "tamaño_plantilla": "31",
+            "capacidad_estadio": "19713"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "167",
+        "fields": {
+            "nombre": "FC Augsburg 1907",
+            "pais": "Alemania",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/167.png",
+            "nombre_estadio": "WWK ARENA",
+            "edad_promedia_plantilla": "25.4",
+            "tamaño_plantilla": "27",
+            "capacidad_estadio": "30660"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "232",
+        "fields": {
+            "nombre": "FK Spartak Moskva",
+            "pais": "Rusia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/232.png",
+            "nombre_estadio": "Lukoil Arena",
+            "edad_promedia_plantilla": "25.3",
+            "tamaño_plantilla": "27",
+            "capacidad_estadio": "44571"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "2420",
+        "fields": {
+            "nombre": "Vitória Sport Clube",
+            "pais": "Portugal",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/2420.png",
+            "nombre_estadio": "Estádio D. Afonso Henriques",
+            "edad_promedia_plantilla": "25.2",
+            "tamaño_plantilla": "27",
+            "capacidad_estadio": "30029"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "2424",
+        "fields": {
+            "nombre": "Gil Vicente Futebol Clube",
+            "pais": "Portugal",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/2424.png",
+            "nombre_estadio": "Estádio Cidade de Barcelos",
+            "edad_promedia_plantilla": "24.4",
+            "tamaño_plantilla": "30",
+            "capacidad_estadio": "12046"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "2439",
+        "fields": {
+            "nombre": "Kuban Krasnodar (-2018)",
+            "pais": "Rusia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/2439.png",
+            "nombre_estadio": "Kuban Stadium",
+            "edad_promedia_plantilla": "0.0",
+            "tamaño_plantilla": "0",
+            "capacidad_estadio": "31654"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "2703",
+        "fields": {
+            "nombre": "Spartak Vladikavkaz (-2020)",
+            "pais": "Rusia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/2703.png",
+            "nombre_estadio": "Republican Stadium Spartak",
+            "edad_promedia_plantilla": "0.0",
+            "tamaño_plantilla": "0",
+            "capacidad_estadio": "32464"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "289",
+        "fields": {
+            "nombre": "Sunderland AFC",
+            "pais": "Inglaterra",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/289.png",
+            "nombre_estadio": "Stadium of Light",
+            "edad_promedia_plantilla": "23.5",
+            "tamaño_plantilla": "26",
+            "capacidad_estadio": "48707"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "2921",
+        "fields": {
+            "nombre": "Delfino Pescara 1936",
+            "pais": "Italia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/2921.png",
+            "nombre_estadio": "Adriatico",
+            "edad_promedia_plantilla": "24.6",
+            "tamaño_plantilla": "28",
+            "capacidad_estadio": "20476"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "3",
+        "fields": {
+            "nombre": "1. Fußball-Club Köln",
+            "pais": "Alemania",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/3.png",
+            "nombre_estadio": "RheinEnergieSTADION",
+            "edad_promedia_plantilla": "25.2",
+            "tamaño_plantilla": "29",
+            "capacidad_estadio": "50000"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "3719",
+        "fields": {
+            "nombre": "FK Khimki",
+            "pais": "Rusia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/3719.png",
+            "nombre_estadio": "Arena Khimki",
+            "edad_promedia_plantilla": "24.7",
+            "tamaño_plantilla": "26",
+            "capacidad_estadio": "18636"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "3729",
+        "fields": {
+            "nombre": "Arsenal Tula",
+            "pais": "Rusia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/3729.png",
+            "nombre_estadio": "Arsenal",
+            "edad_promedia_plantilla": "27.4",
+            "tamaño_plantilla": "27",
+            "capacidad_estadio": "19241"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "3840",
+        "fields": {
+            "nombre": "Adana Demirspor Kulübü",
+            "pais": "Turquia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/3840.png",
+            "nombre_estadio": "Yeni Adana Stadyumu",
+            "edad_promedia_plantilla": "25.5",
+            "tamaño_plantilla": "31",
+            "capacidad_estadio": "33000"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "430",
+        "fields": {
+            "nombre": "Associazione Calcio Fiorentina",
+            "pais": "Italia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/430.png",
+            "nombre_estadio": "Artemio Franchi",
+            "edad_promedia_plantilla": "25.5",
+            "tamaño_plantilla": "28",
+            "capacidad_estadio": "43147"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "4482",
+        "fields": {
+            "nombre": "Volyn Lutsk",
+            "pais": "Ucrania",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/4482.png",
+            "nombre_estadio": "Stadion Avangard",
+            "edad_promedia_plantilla": "0.0",
+            "tamaño_plantilla": "0",
+            "capacidad_estadio": "12080"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "48726",
+        "fields": {
+            "nombre": "FC Rukh Lviv",
+            "pais": "Ucrania",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/48726.png",
+            "nombre_estadio": "Arena Lviv",
+            "edad_promedia_plantilla": "22.8",
+            "tamaño_plantilla": "26",
+            "capacidad_estadio": "34725"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "5",
+        "fields": {
+            "nombre": "Associazione Calcio Milan",
+            "pais": "Italia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/5.png",
+            "nombre_estadio": "Giuseppe Meazza",
+            "edad_promedia_plantilla": "26.5",
+            "tamaño_plantilla": "26",
+            "capacidad_estadio": "75923"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "512",
+        "fields": {
+            "nombre": "Stoke City",
+            "pais": "Inglaterra",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/512.png",
+            "nombre_estadio": "bet365 Stadium",
+            "edad_promedia_plantilla": "26.7",
+            "tamaño_plantilla": "24",
+            "capacidad_estadio": "30089"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "5818",
+        "fields": {
+            "nombre": "Hobro IK",
+            "pais": "Dinamarca",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/5818.png",
+            "nombre_estadio": "DS Arena",
+            "edad_promedia_plantilla": "24.8",
+            "tamaño_plantilla": "22",
+            "capacidad_estadio": "7500"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "60949",
+        "fields": {
+            "nombre": "Neos Podosferikos Syllogos Volou",
+            "pais": "Grecia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/60949.png",
+            "nombre_estadio": "Panthessaliko Stadio",
+            "edad_promedia_plantilla": "26.4",
+            "tamaño_plantilla": "27",
+            "capacidad_estadio": "22700"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "678",
+        "fields": {
+            "nombre": "Aarhus Gymnastik Forening",
+            "pais": "Dinamarca",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/678.png",
+            "nombre_estadio": "Ceres Park",
+            "edad_promedia_plantilla": "24.5",
+            "tamaño_plantilla": "29",
+            "capacidad_estadio": "19433"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "7775",
+        "fields": {
+            "nombre": "Hatayspor Futbol Kulübü",
+            "pais": "Turquia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/7775.png",
+            "nombre_estadio": "Mersin Stadyumu",
+            "edad_promedia_plantilla": "24.8",
+            "tamaño_plantilla": "32",
+            "capacidad_estadio": "25000"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "826",
+        "fields": {
+            "nombre": "Racing Club de Lens",
+            "pais": "Francia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/826.png",
+            "nombre_estadio": "Stade Bollaert-Delelis",
+            "edad_promedia_plantilla": "25.9",
+            "tamaño_plantilla": "27",
+            "capacidad_estadio": "38223"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "8838",
+        "fields": {
+            "nombre": "Zirka Kropyvnytskyi",
+            "pais": "Ucrania",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/8838.png",
+            "nombre_estadio": "Zirka",
+            "edad_promedia_plantilla": "27.4",
+            "tamaño_plantilla": "7",
+            "capacidad_estadio": "14628"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "897",
+        "fields": {
+            "nombre": "Deportivo de La Coruña",
+            "pais": "España",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/897.png",
+            "nombre_estadio": "Abanca Riazor",
+            "edad_promedia_plantilla": "27.7",
+            "tamaño_plantilla": "24",
+            "capacidad_estadio": "32912"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "987",
+        "fields": {
+            "nombre": "Motherwell Football Club",
+            "pais": "Escocia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/987.png",
+            "nombre_estadio": "Fir Park",
+            "edad_promedia_plantilla": "26.0",
+            "tamaño_plantilla": "24",
+            "capacidad_estadio": "13750"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "1063",
+        "fields": {
+            "nombre": "Viborg Fodsports Forening",
+            "pais": "Dinamarca",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/1063.png",
+            "nombre_estadio": "Viborg Stadion",
+            "edad_promedia_plantilla": "23.2",
+            "tamaño_plantilla": "27",
+            "capacidad_estadio": "10000"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "1085",
+        "fields": {
+            "nombre": "Vitória Setúbal FC",
+            "pais": "Portugal",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/1085.png",
+            "nombre_estadio": "Estádio do Bonfim",
+            "edad_promedia_plantilla": "26.0",
+            "tamaño_plantilla": "29",
+            "capacidad_estadio": "18642"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "11",
+        "fields": {
+            "nombre": "Arsenal Football Club",
+            "pais": "Inglaterra",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/11.png",
+            "nombre_estadio": "Emirates Stadium",
+            "edad_promedia_plantilla": "25.5",
+            "tamaño_plantilla": "25",
+            "capacidad_estadio": "60704"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "126",
+        "fields": {
+            "nombre": "Çaykur Rizespor Kulübü",
+            "pais": "Turquia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/126.png",
+            "nombre_estadio": "Çaykur Didi",
+            "edad_promedia_plantilla": "23.8",
+            "tamaño_plantilla": "32",
+            "capacidad_estadio": "15332"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "1627",
+        "fields": {
+            "nombre": "Catania FC",
+            "pais": "Italia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/1627.png",
+            "nombre_estadio": "Cibali - Angelo Massimino",
+            "edad_promedia_plantilla": "26.0",
+            "tamaño_plantilla": "27",
+            "capacidad_estadio": "20204"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "16795",
+        "fields": {
+            "nombre": "Granada Club de Fútbol S.A.D.",
+            "pais": "España",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/16795.png",
+            "nombre_estadio": "Nuevo Los Cármenes",
+            "edad_promedia_plantilla": "27.1",
+            "tamaño_plantilla": "26",
+            "capacidad_estadio": "19336"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "204",
+        "fields": {
+            "nombre": "Lierse SK (- 2018)",
+            "pais": "Belgica",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/204.png",
+            "nombre_estadio": "Herman Vanderpoortenstadion",
+            "edad_promedia_plantilla": "0.0",
+            "tamaño_plantilla": "0",
+            "capacidad_estadio": "14538"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "2227",
+        "fields": {
+            "nombre": "SK Tavriya Simferopol ( - 2022)",
+            "pais": "Ucrania",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/2227.png",
+            "nombre_estadio": "RS Lokomotiv",
+            "edad_promedia_plantilla": "0.0",
+            "tamaño_plantilla": "0",
+            "capacidad_estadio": "19978"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "2239",
+        "fields": {
+            "nombre": "US Cremonese",
+            "pais": "Italia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/2239.png",
+            "nombre_estadio": "Giovanni Zini",
+            "edad_promedia_plantilla": "25.4",
+            "tamaño_plantilla": "29",
+            "capacidad_estadio": "16003"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "252",
+        "fields": {
+            "nombre": "Genoa Cricket and Football Club",
+            "pais": "Italia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/252.png",
+            "nombre_estadio": "Luigi Ferraris",
+            "edad_promedia_plantilla": "26.0",
+            "tamaño_plantilla": "27",
+            "capacidad_estadio": "34901"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "281",
+        "fields": {
+            "nombre": "Manchester City Football Club",
+            "pais": "Inglaterra",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/281.png",
+            "nombre_estadio": "Etihad Stadium",
+            "edad_promedia_plantilla": "26.8",
+            "tamaño_plantilla": "22",
+            "capacidad_estadio": "55017"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "3302",
+        "fields": {
+            "nombre": "Unión Deportiva Almería S.A.D.",
+            "pais": "España",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/3302.png",
+            "nombre_estadio": "Power Horse Stadium",
+            "edad_promedia_plantilla": "26.3",
+            "tamaño_plantilla": "25",
+            "capacidad_estadio": "18331"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "39",
+        "fields": {
+            "nombre": "1. Fußball- und Sportverein Mainz 05",
+            "pais": "Alemania",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/39.png",
+            "nombre_estadio": "Mewa Arena",
+            "edad_promedia_plantilla": "26.5",
+            "tamaño_plantilla": "27",
+            "capacidad_estadio": "33305"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "3999",
+        "fields": {
+            "nombre": "PAS Lamia 1964",
+            "pais": "Grecia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/3999.png",
+            "nombre_estadio": "Stadio Lamia \"Athanasios Diakos\"",
+            "edad_promedia_plantilla": "28.0",
+            "tamaño_plantilla": "29",
+            "capacidad_estadio": "5500"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "405",
+        "fields": {
+            "nombre": "Aston Villa Football Club",
+            "pais": "Inglaterra",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/405.png",
+            "nombre_estadio": "Villa Park",
+            "edad_promedia_plantilla": "26.3",
+            "tamaño_plantilla": "27",
+            "capacidad_estadio": "42682"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "441",
+        "fields": {
+            "nombre": "Apollon Smyrnis",
+            "pais": "Grecia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/441.png",
+            "nombre_estadio": "Stadio Neas Smyrnis",
+            "edad_promedia_plantilla": "27.3",
+            "tamaño_plantilla": "27",
+            "capacidad_estadio": "11700"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "5219",
+        "fields": {
+            "nombre": "AOK Kerkyra",
+            "pais": "Grecia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/5219.png",
+            "nombre_estadio": "Ethniko Stadio Kerkyras",
+            "edad_promedia_plantilla": "28.1",
+            "tamaño_plantilla": "8",
+            "capacidad_estadio": "3000"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "543",
+        "fields": {
+            "nombre": "Wolverhampton Wanderers Football Club",
+            "pais": "Inglaterra",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/543.png",
+            "nombre_estadio": "Molineux Stadium",
+            "edad_promedia_plantilla": "25.8",
+            "tamaño_plantilla": "22",
+            "capacidad_estadio": "32050"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "60",
+        "fields": {
+            "nombre": "Sport-Club Freiburg",
+            "pais": "Alemania",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/60.png",
+            "nombre_estadio": "Europa-Park Stadion",
+            "edad_promedia_plantilla": "26.2",
+            "tamaño_plantilla": "27",
+            "capacidad_estadio": "34700"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "61825",
+        "fields": {
+            "nombre": "FK Minaj",
+            "pais": "Ucrania",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/61825.png",
+            "nombre_estadio": "Minaj-Arena",
+            "edad_promedia_plantilla": "24.0",
+            "tamaño_plantilla": "23",
+            "capacidad_estadio": "1312"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "63007",
+        "fields": {
+            "nombre": "LNZ Cherkasy",
+            "pais": "Ucrania",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/63007.png",
+            "nombre_estadio": "Cherkasy-Arena",
+            "edad_promedia_plantilla": "26.9",
+            "tamaño_plantilla": "27",
+            "capacidad_estadio": "10321"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "660",
+        "fields": {
+            "nombre": "FC Shakhtar Donetsk",
+            "pais": "Ucrania",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/660.png",
+            "nombre_estadio": "Arena Lviv",
+            "edad_promedia_plantilla": "23.7",
+            "tamaño_plantilla": "33",
+            "capacidad_estadio": "34725"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "6894",
+        "fields": {
+            "nombre": "Kayseri Erciyesspor",
+            "pais": "Turquia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/6894.png",
+            "nombre_estadio": "Kayseri Atatürk Spor Kompleksi Yan Açık Saha",
+            "edad_promedia_plantilla": "0.0",
+            "tamaño_plantilla": "0",
+            "capacidad_estadio": "2000"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "6912",
+        "fields": {
+            "nombre": "Futebol Clube de Vizela",
+            "pais": "Portugal",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/6912.png",
+            "nombre_estadio": "Estádio do Vizela",
+            "edad_promedia_plantilla": "24.9",
+            "tamaño_plantilla": "25",
+            "capacidad_estadio": "6565"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "714",
+        "fields": {
+            "nombre": "RCD Espanyol Barcelona",
+            "pais": "España",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/714.png",
+            "nombre_estadio": "RCDE Stadium",
+            "edad_promedia_plantilla": "25.4",
+            "tamaño_plantilla": "26",
+            "capacidad_estadio": "40500"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "798",
+        "fields": {
+            "nombre": "Excelsior Rotterdam",
+            "pais": "Paises Bajos",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/798.png",
+            "nombre_estadio": "Van Donge & De Roo Stadion - Woudestein",
+            "edad_promedia_plantilla": "23.4",
+            "tamaño_plantilla": "28",
+            "capacidad_estadio": "4400"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "862",
+        "fields": {
+            "nombre": "Chievo Verona",
+            "pais": "Italia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/862.png",
+            "nombre_estadio": "Marcantonio Bentegodi",
+            "edad_promedia_plantilla": "0.0",
+            "tamaño_plantilla": "0",
+            "capacidad_estadio": "31045"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "8970",
+        "fields": {
+            "nombre": "Frosinone Calcio S.r.l.",
+            "pais": "Italia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/8970.png",
+            "nombre_estadio": "Benito Stirpe",
+            "edad_promedia_plantilla": "24.6",
+            "tamaño_plantilla": "33",
+            "capacidad_estadio": "16227"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "9007",
+        "fields": {
+            "nombre": "Arsenal Kyiv",
+            "pais": "Ucrania",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/9007.png",
+            "nombre_estadio": "NSK Olimpisky",
+            "edad_promedia_plantilla": "0.0",
+            "tamaño_plantilla": "0",
+            "capacidad_estadio": "70050"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "12321",
+        "fields": {
+            "nombre": "Girona Fútbol Club S. A. D.",
+            "pais": "España",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/12321.png",
+            "nombre_estadio": "Montilivi",
+            "edad_promedia_plantilla": "26.8",
+            "tamaño_plantilla": "23",
+            "capacidad_estadio": "14624"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "1241",
+        "fields": {
+            "nombre": "Livingston Football Club",
+            "pais": "Escocia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/1241.png",
+            "nombre_estadio": "Tony Macaroni Arena",
+            "edad_promedia_plantilla": "27.2",
+            "tamaño_plantilla": "28",
+            "capacidad_estadio": "9512"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "127",
+        "fields": {
+            "nombre": "SC Paderborn 07",
+            "pais": "Alemania",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/127.png",
+            "nombre_estadio": "Home Deluxe Arena",
+            "edad_promedia_plantilla": "25.7",
+            "tamaño_plantilla": "26",
+            "capacidad_estadio": "15000"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "19",
+        "fields": {
+            "nombre": "Brescia Calcio",
+            "pais": "Italia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/19.png",
+            "nombre_estadio": "Mario Rigamonti",
+            "edad_promedia_plantilla": "25.1",
+            "tamaño_plantilla": "28",
+            "capacidad_estadio": "19550"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "23",
+        "fields": {
+            "nombre": "Eintracht Braunschweig",
+            "pais": "Alemania",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/23.png",
+            "nombre_estadio": "EINTRACHT-Stadion",
+            "edad_promedia_plantilla": "25.6",
+            "tamaño_plantilla": "30",
+            "capacidad_estadio": "23325"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "33",
+        "fields": {
+            "nombre": "FC Schalke 04",
+            "pais": "Alemania",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/33.png",
+            "nombre_estadio": "Veltins-Arena",
+            "edad_promedia_plantilla": "26.4",
+            "tamaño_plantilla": "27",
+            "capacidad_estadio": "62271"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "350",
+        "fields": {
+            "nombre": "Sheffield United Football Club",
+            "pais": "Inglaterra",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/350.png",
+            "nombre_estadio": "Bramall Lane",
+            "edad_promedia_plantilla": "25.8",
+            "tamaño_plantilla": "29",
+            "capacidad_estadio": "32702"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "3592",
+        "fields": {
+            "nombre": "FK Kryvbas Kryvyi Rig",
+            "pais": "Ucrania",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/3592.png",
+            "nombre_estadio": "Girnyk",
+            "edad_promedia_plantilla": "24.8",
+            "tamaño_plantilla": "32",
+            "capacidad_estadio": "2500"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "369",
+        "fields": {
+            "nombre": "Lyngby Boldklubben af 1921",
+            "pais": "Dinamarca",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/369.png",
+            "nombre_estadio": "Lyngby Stadion",
+            "edad_promedia_plantilla": "24.5",
+            "tamaño_plantilla": "25",
+            "capacidad_estadio": "10000"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "3725",
+        "fields": {
+            "nombre": "RFK Akhmat Grozny",
+            "pais": "Rusia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/3725.png",
+            "nombre_estadio": "Akhmat-Arena",
+            "edad_promedia_plantilla": "27.5",
+            "tamaño_plantilla": "26",
+            "capacidad_estadio": "30200"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "41201",
+        "fields": {
+            "nombre": "PFK Tambov (-2021)",
+            "pais": "Rusia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/41201.png",
+            "nombre_estadio": "Mordovia Arena",
+            "edad_promedia_plantilla": "0.0",
+            "tamaño_plantilla": "0",
+            "capacidad_estadio": "44149"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "472",
+        "fields": {
+            "nombre": "Unión Deportiva Las Palmas S.A.D.",
+            "pais": "España",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/472.png",
+            "nombre_estadio": "Estadio de Gran Canaria",
+            "edad_promedia_plantilla": "26.3",
+            "tamaño_plantilla": "27",
+            "capacidad_estadio": "32400"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "520",
+        "fields": {
+            "nombre": "Cercle Brugge Koninklijke Sportvereniging",
+            "pais": "Belgica",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/520.png",
+            "nombre_estadio": "Jan-Breydel-Stadion",
+            "edad_promedia_plantilla": "22.9",
+            "tamaño_plantilla": "27",
+            "capacidad_estadio": "29062"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "6418",
+        "fields": {
+            "nombre": "Panetolikos Agrinio",
+            "pais": "Grecia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/6418.png",
+            "nombre_estadio": "Gipedo Panetolikou",
+            "edad_promedia_plantilla": "25.9",
+            "tamaño_plantilla": "32",
+            "capacidad_estadio": "7321"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "653",
+        "fields": {
+            "nombre": "Omilos Filathlon Irakliou FC",
+            "pais": "Grecia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/653.png",
+            "nombre_estadio": "Gipedo Theodoros Vardinogiannis",
+            "edad_promedia_plantilla": "27.3",
+            "tamaño_plantilla": "30",
+            "capacidad_estadio": "9088"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "6994",
+        "fields": {
+            "nombre": "Metalurg Zaporizhya (-2016)",
+            "pais": "Ucrania",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/6994.png",
+            "nombre_estadio": "Slavutych Arena",
+            "edad_promedia_plantilla": "0.0",
+            "tamaño_plantilla": "0",
+            "capacidad_estadio": "11883"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "7378",
+        "fields": {
+            "nombre": "Portimonense Futebol SAD",
+            "pais": "Portugal",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/7378.png",
+            "nombre_estadio": "Portimonense Estádio",
+            "edad_promedia_plantilla": "23.9",
+            "tamaño_plantilla": "31",
+            "capacidad_estadio": "6000"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "982",
+        "fields": {
+            "nombre": "CD Nacional",
+            "pais": "Portugal",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/982.png",
+            "nombre_estadio": "Estádio da Madeira",
+            "edad_promedia_plantilla": "25.0",
+            "tamaño_plantilla": "27",
+            "capacidad_estadio": "5586"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "1005",
+        "fields": {
+            "nombre": "Unione Sportiva Lecce",
+            "pais": "Italia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/1005.png",
+            "nombre_estadio": "Ettore Giardiniero",
+            "edad_promedia_plantilla": "23.9",
+            "tamaño_plantilla": "28",
+            "capacidad_estadio": "31559"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "1038",
+        "fields": {
+            "nombre": "UC Sampdoria",
+            "pais": "Italia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/1038.png",
+            "nombre_estadio": "Luigi Ferraris",
+            "edad_promedia_plantilla": "24.3",
+            "tamaño_plantilla": "33",
+            "capacidad_estadio": "36348"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "1091",
+        "fields": {
+            "nombre": "Panthessalonikios Athlitikos Omilos Konstantinoupoliton",
+            "pais": "Grecia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/1091.png",
+            "nombre_estadio": "Toumba Stadium",
+            "edad_promedia_plantilla": "27.5",
+            "tamaño_plantilla": "26",
+            "capacidad_estadio": "28703"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "1210",
+        "fields": {
+            "nombre": "US Livorno 1915",
+            "pais": "Italia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/1210.png",
+            "nombre_estadio": "Armando Picchi",
+            "edad_promedia_plantilla": "24.1",
+            "tamaño_plantilla": "29",
+            "capacidad_estadio": "19238"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "1245",
+        "fields": {
+            "nombre": "Königliche Allgemeine Sportvereinigung Eupen",
+            "pais": "Belgica",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/1245.png",
+            "nombre_estadio": "Kehrweg-Stadion",
+            "edad_promedia_plantilla": "24.3",
+            "tamaño_plantilla": "30",
+            "capacidad_estadio": "8331"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "1426",
+        "fields": {
+            "nombre": "VVV-Venlo",
+            "pais": "Paises Bajos",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/1426.png",
+            "nombre_estadio": "Covebo Stadion - De Koel",
+            "edad_promedia_plantilla": "22.9",
+            "tamaño_plantilla": "28",
+            "capacidad_estadio": "8000"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "1533",
+        "fields": {
+            "nombre": "SD Eibar",
+            "pais": "España",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/1533.png",
+            "nombre_estadio": "Ipurua",
+            "edad_promedia_plantilla": "28.3",
+            "tamaño_plantilla": "26",
+            "capacidad_estadio": "8164"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "180",
+        "fields": {
+            "nombre": "Southampton FC",
+            "pais": "Inglaterra",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/180.png",
+            "nombre_estadio": "St Mary's Stadium",
+            "edad_promedia_plantilla": "24.5",
+            "tamaño_plantilla": "29",
+            "capacidad_estadio": "32384"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "19657",
+        "fields": {
+            "nombre": "Vendsyssel FF",
+            "pais": "Dinamarca",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/19657.png",
+            "nombre_estadio": "Nord Energi Arena",
+            "edad_promedia_plantilla": "25.1",
+            "tamaño_plantilla": "24",
+            "capacidad_estadio": "10000"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "234",
+        "fields": {
+            "nombre": "Feyenoord Rotterdam",
+            "pais": "Paises Bajos",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/234.png",
+            "nombre_estadio": "Stadion Feyenoord \"De Kuip\"",
+            "edad_promedia_plantilla": "23.7",
+            "tamaño_plantilla": "27",
+            "capacidad_estadio": "47500"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "2375",
+        "fields": {
+            "nombre": "Altay SK",
+            "pais": "Turquia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/2375.png",
+            "nombre_estadio": "Alsancak Mustafa Denizli Stadı",
+            "edad_promedia_plantilla": "25.3",
+            "tamaño_plantilla": "31",
+            "capacidad_estadio": "15000"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "2448",
+        "fields": {
+            "nombre": "Sporting Gijón",
+            "pais": "España",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/2448.png",
+            "nombre_estadio": "El Molinón - Enrique Castro Quini",
+            "edad_promedia_plantilla": "26.2",
+            "tamaño_plantilla": "28",
+            "capacidad_estadio": "29029"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "2741",
+        "fields": {
+            "nombre": "FK Baltika",
+            "pais": "Rusia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/2741.png",
+            "nombre_estadio": "Rostech Arena",
+            "edad_promedia_plantilla": "25.7",
+            "tamaño_plantilla": "27",
+            "capacidad_estadio": "35000"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "2783",
+        "fields": {
+            "nombre": "Metalurg Donetsk (- 2015)",
+            "pais": "Ucrania",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/2783.png",
+            "nombre_estadio": "Metalurg",
+            "edad_promedia_plantilla": "0.0",
+            "tamaño_plantilla": "0",
+            "capacidad_estadio": "5090"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "3205",
+        "fields": {
+            "nombre": "Kayserispor Kulübü",
+            "pais": "Turquia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/3205.png",
+            "nombre_estadio": "RHG Enertürk Enerji Stadyumu",
+            "edad_promedia_plantilla": "26.0",
+            "tamaño_plantilla": "30",
+            "capacidad_estadio": "32864"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "3349",
+        "fields": {
+            "nombre": "CD Feirense",
+            "pais": "Portugal",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/3349.png",
+            "nombre_estadio": "Estádio Marcolino de Castro",
+            "edad_promedia_plantilla": "25.0",
+            "tamaño_plantilla": "24",
+            "capacidad_estadio": "5401"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "3385",
+        "fields": {
+            "nombre": "Panserraikos Serres",
+            "pais": "Grecia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/3385.png",
+            "nombre_estadio": "Dimotiko Gipedo Serron",
+            "edad_promedia_plantilla": "26.1",
+            "tamaño_plantilla": "28",
+            "capacidad_estadio": "9500"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "368",
+        "fields": {
+            "nombre": "Sevilla Fútbol Club S.A.D.",
+            "pais": "España",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/368.png",
+            "nombre_estadio": "Ramón Sánchez-Pizjuán",
+            "edad_promedia_plantilla": "27.3",
+            "tamaño_plantilla": "28",
+            "capacidad_estadio": "43883"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "38",
+        "fields": {
+            "nombre": "Fortuna Düsseldorf",
+            "pais": "Alemania",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/38.png",
+            "nombre_estadio": "MERKUR SPIEL-ARENA",
+            "edad_promedia_plantilla": "25.9",
+            "tamaño_plantilla": "29",
+            "capacidad_estadio": "54600"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "3948",
+        "fields": {
+            "nombre": "Royale Union Saint-Gilloise",
+            "pais": "Belgica",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/3948.png",
+            "nombre_estadio": "Stade Joseph Mariën",
+            "edad_promedia_plantilla": "25.1",
+            "tamaño_plantilla": "26",
+            "capacidad_estadio": "8000"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "415",
+        "fields": {
+            "nombre": "Toulouse Football Club",
+            "pais": "Francia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/415.png",
+            "nombre_estadio": "Stadium Municipal",
+            "edad_promedia_plantilla": "23.0",
+            "tamaño_plantilla": "28",
+            "capacidad_estadio": "33150"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "416",
+        "fields": {
+            "nombre": "Torino Calcio",
+            "pais": "Italia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/416.png",
+            "nombre_estadio": "Stadio Olimpico Grande Torino",
+            "edad_promedia_plantilla": "25.3",
+            "tamaño_plantilla": "25",
+            "capacidad_estadio": "28177"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "417",
+        "fields": {
+            "nombre": "Olympique Gymnaste Club Nice Côte d'Azur",
+            "pais": "Francia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/417.png",
+            "nombre_estadio": "Allianz Riviera",
+            "edad_promedia_plantilla": "24.0",
+            "tamaño_plantilla": "28",
+            "capacidad_estadio": "36178"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "44",
+        "fields": {
+            "nombre": "Hertha BSC",
+            "pais": "Alemania",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/44.png",
+            "nombre_estadio": "Olympiastadion Berlin",
+            "edad_promedia_plantilla": "24.1",
+            "tamaño_plantilla": "36",
+            "capacidad_estadio": "74667"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "467",
+        "fields": {
+            "nombre": "Nijmegen Eendracht Combinatie",
+            "pais": "Paises Bajos",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/467.png",
+            "nombre_estadio": "Goffertstadion",
+            "edad_promedia_plantilla": "25.0",
+            "tamaño_plantilla": "24",
+            "capacidad_estadio": "12500"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "53646",
+        "fields": {
+            "nombre": "FK Polissya Zhytomyr",
+            "pais": "Ucrania",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/53646.png",
+            "nombre_estadio": "Tsentralnyi Polissya",
+            "edad_promedia_plantilla": "25.6",
+            "tamaño_plantilla": "27",
+            "capacidad_estadio": "5928"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "631",
+        "fields": {
+            "nombre": "Chelsea Football Club",
+            "pais": "Inglaterra",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/631.png",
+            "nombre_estadio": "Stamford Bridge",
+            "edad_promedia_plantilla": "23.4",
+            "tamaño_plantilla": "31",
+            "capacidad_estadio": "40853"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "749",
+        "fields": {
+            "nombre": "Empoli Football Club S.r.l.",
+            "pais": "Italia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/749.png",
+            "nombre_estadio": "Carlo Castellani",
+            "edad_promedia_plantilla": "26.5",
+            "tamaño_plantilla": "28",
+            "capacidad_estadio": "19847"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "833",
+        "fields": {
+            "nombre": "Denizlispor",
+            "pais": "Turquia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/833.png",
+            "nombre_estadio": "Denizli Atatürk Stadı",
+            "edad_promedia_plantilla": "25.8",
+            "tamaño_plantilla": "27",
+            "capacidad_estadio": "18745"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "865",
+        "fields": {
+            "nombre": "Fodbold Club Midtjylland",
+            "pais": "Dinamarca",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/865.png",
+            "nombre_estadio": "MCH Arena",
+            "edad_promedia_plantilla": "25.2",
+            "tamaño_plantilla": "27",
+            "capacidad_estadio": "11535"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "10",
+        "fields": {
+            "nombre": "Arminia Bielefeld",
+            "pais": "Alemania",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/10.png",
+            "nombre_estadio": "SchücoArena",
+            "edad_promedia_plantilla": "25.3",
+            "tamaño_plantilla": "27",
+            "capacidad_estadio": "26515"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "10484",
+        "fields": {
+            "nombre": "Kasımpaşa Spor Kulübü",
+            "pais": "Turquia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/10484.png",
+            "nombre_estadio": "Recep Tayyip Erdoğan Stadyumu",
+            "edad_promedia_plantilla": "25.2",
+            "tamaño_plantilla": "29",
+            "capacidad_estadio": "13856"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "1049",
+        "fields": {
+            "nombre": "Valencia Club de Fútbol S. A. D.",
+            "pais": "España",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/1049.png",
+            "nombre_estadio": "Mestalla",
+            "edad_promedia_plantilla": "23.9",
+            "tamaño_plantilla": "25",
+            "capacidad_estadio": "49430"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "1053",
+        "fields": {
+            "nombre": "Aalborg BK",
+            "pais": "Dinamarca",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/1053.png",
+            "nombre_estadio": "Aalborg Portland Park",
+            "edad_promedia_plantilla": "24.5",
+            "tamaño_plantilla": "27",
+            "capacidad_estadio": "13800"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "1075",
+        "fields": {
+            "nombre": "Sporting Clube de Braga",
+            "pais": "Portugal",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/1075.png",
+            "nombre_estadio": "Estádio Municipal de Braga",
+            "edad_promedia_plantilla": "27.0",
+            "tamaño_plantilla": "24",
+            "capacidad_estadio": "30286"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "1269",
+        "fields": {
+            "nombre": "Prins Hendrik Ende Desespereert Nimmer Combinatie Zwolle",
+            "pais": "Paises Bajos",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/1269.png",
+            "nombre_estadio": "MAC³PARK stadion",
+            "edad_promedia_plantilla": "25.3",
+            "tamaño_plantilla": "28",
+            "capacidad_estadio": "14000"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "132",
+        "fields": {
+            "nombre": "NAC Breda",
+            "pais": "Paises Bajos",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/132.png",
+            "nombre_estadio": "Rat Verlegh Stadion",
+            "edad_promedia_plantilla": "23.7",
+            "tamaño_plantilla": "32",
+            "capacidad_estadio": "19000"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "2292",
+        "fields": {
+            "nombre": "Elazigspor",
+            "pais": "Turquia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/2292.png",
+            "nombre_estadio": "Elazığ Stadyumu",
+            "edad_promedia_plantilla": "25.3",
+            "tamaño_plantilla": "28",
+            "capacidad_estadio": "23000"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "27",
+        "fields": {
+            "nombre": "FC Bayern München",
+            "pais": "Alemania",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/27.png",
+            "nombre_estadio": "Allianz Arena",
+            "edad_promedia_plantilla": "26.5",
+            "tamaño_plantilla": "27",
+            "capacidad_estadio": "75024"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "2759",
+        "fields": {
+            "nombre": "Ross County Football Club",
+            "pais": "Escocia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/2759.png",
+            "nombre_estadio": "Global Energy Stadium",
+            "edad_promedia_plantilla": "25.2",
+            "tamaño_plantilla": "28",
+            "capacidad_estadio": "6541"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "2778",
+        "fields": {
+            "nombre": "Fodbold Club Nordsjælland",
+            "pais": "Dinamarca",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/2778.png",
+            "nombre_estadio": "Right to Dream Park",
+            "edad_promedia_plantilla": "22.5",
+            "tamaño_plantilla": "29",
+            "capacidad_estadio": "10300"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "29",
+        "fields": {
+            "nombre": "Everton Football Club",
+            "pais": "Inglaterra",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/29.png",
+            "nombre_estadio": "Goodison Park",
+            "edad_promedia_plantilla": "27.1",
+            "tamaño_plantilla": "25",
+            "capacidad_estadio": "39571"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "290",
+        "fields": {
+            "nombre": "AJ Auxerre",
+            "pais": "Francia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/290.png",
+            "nombre_estadio": "Stade de l'Abbé-Deschamps",
+            "edad_promedia_plantilla": "24.3",
+            "tamaño_plantilla": "26",
+            "capacidad_estadio": "18541"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "30120",
+        "fields": {
+            "nombre": "Athlitiki Enosi Kifisias",
+            "pais": "Grecia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/30120.png",
+            "nombre_estadio": "Gipedo Kesarianis \"Michalis Kritikopoulos\"",
+            "edad_promedia_plantilla": "27.6",
+            "tamaño_plantilla": "30",
+            "capacidad_estadio": "4851"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "306",
+        "fields": {
+            "nombre": "Sportclub Heerenveen",
+            "pais": "Paises Bajos",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/306.png",
+            "nombre_estadio": "Abe Lenstra Stadion",
+            "edad_promedia_plantilla": "24.0",
+            "tamaño_plantilla": "26",
+            "capacidad_estadio": "27224"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "3268",
+        "fields": {
+            "nombre": "Casa Pia Atlético Clube",
+            "pais": "Portugal",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/3268.png",
+            "nombre_estadio": "Estádio Municipal de Rio Maior",
+            "edad_promedia_plantilla": "25.5",
+            "tamaño_plantilla": "29",
+            "capacidad_estadio": "6925"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "347",
+        "fields": {
+            "nombre": "Football Club de Metz",
+            "pais": "Francia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/347.png",
+            "nombre_estadio": "Stade Saint-Symphorien",
+            "edad_promedia_plantilla": "24.9",
+            "tamaño_plantilla": "28",
+            "capacidad_estadio": "28786"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "3714",
+        "fields": {
+            "nombre": "Enisey Krasnoyarsk",
+            "pais": "Rusia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/3714.png",
+            "nombre_estadio": "Zentralstadion Krasnoyarsk",
+            "edad_promedia_plantilla": "25.6",
+            "tamaño_plantilla": "26",
+            "capacidad_estadio": "15000"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "399",
+        "fields": {
+            "nombre": "Leeds United",
+            "pais": "Inglaterra",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/399.png",
+            "nombre_estadio": "Elland Road",
+            "edad_promedia_plantilla": "24.6",
+            "tamaño_plantilla": "27",
+            "capacidad_estadio": "37890"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "4083",
+        "fields": {
+            "nombre": "FC Crotone",
+            "pais": "Italia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/4083.png",
+            "nombre_estadio": "Ezio Scida",
+            "edad_promedia_plantilla": "27.0",
+            "tamaño_plantilla": "25",
+            "capacidad_estadio": "16640"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "465",
+        "fields": {
+            "nombre": "Saint Mirren Football Club",
+            "pais": "Escocia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/465.png",
+            "nombre_estadio": "The SMISA Stadium",
+            "edad_promedia_plantilla": "26.0",
+            "tamaño_plantilla": "24",
+            "capacidad_estadio": "8023"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "48332",
+        "fields": {
+            "nombre": "FK Kolos Kovalivka",
+            "pais": "Ucrania",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/48332.png",
+            "nombre_estadio": "Kolos",
+            "edad_promedia_plantilla": "26.6",
+            "tamaño_plantilla": "28",
+            "capacidad_estadio": "5050"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "533",
+        "fields": {
+            "nombre": "TSG 1899 Hoffenheim Fußball-Spielbetriebs GmbH",
+            "pais": "Alemania",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/533.png",
+            "nombre_estadio": "PreZero Arena",
+            "edad_promedia_plantilla": "25.4",
+            "tamaño_plantilla": "27",
+            "capacidad_estadio": "30150"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "58",
+        "fields": {
+            "nombre": "Royal Sporting Club Anderlecht",
+            "pais": "Belgica",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/58.png",
+            "nombre_estadio": "Lotto Park",
+            "edad_promedia_plantilla": "25.5",
+            "tamaño_plantilla": "24",
+            "capacidad_estadio": "21500"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "607",
+        "fields": {
+            "nombre": "Venezia FC",
+            "pais": "Italia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/607.png",
+            "nombre_estadio": "Pier Luigi Penzo",
+            "edad_promedia_plantilla": "25.6",
+            "tamaño_plantilla": "27",
+            "capacidad_estadio": "11150"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "68608",
+        "fields": {
+            "nombre": "CF Os Belenenses",
+            "pais": "Portugal",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/68608.png",
+            "nombre_estadio": "Estádio do Restelo",
+            "edad_promedia_plantilla": "25.7",
+            "tamaño_plantilla": "30",
+            "capacidad_estadio": "19980"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "724",
+        "fields": {
+            "nombre": "Football Club Volendam",
+            "pais": "Paises Bajos",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/724.png",
+            "nombre_estadio": "Kras Stadion",
+            "edad_promedia_plantilla": "22.2",
+            "tamaño_plantilla": "30",
+            "capacidad_estadio": "7384"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "800",
+        "fields": {
+            "nombre": "Atalanta Bergamasca Calcio S.p.a.",
+            "pais": "Italia",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/800.png",
+            "nombre_estadio": "Gewiss Stadium",
+            "edad_promedia_plantilla": "26.5",
+            "tamaño_plantilla": "25",
+            "capacidad_estadio": "21747"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "979",
+        "fields": {
+            "nombre": "Moreirense Futebol Clube",
+            "pais": "Portugal",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/979.png",
+            "nombre_estadio": "Estádio C. J. de Almeida Freitas",
+            "edad_promedia_plantilla": "25.5",
+            "tamaño_plantilla": "29",
+            "capacidad_estadio": "6153"
+        }
+    },
+    {
+        "model": "core.club",
+        "pk": "984",
+        "fields": {
+            "nombre": "West Bromwich Albion",
+            "pais": "Inglaterra",
+            "imagen_escudo": "https://tmssl.akamaized.net/images/wappen/head/984.png",
+            "nombre_estadio": "The Hawthorns",
+            "edad_promedia_plantilla": "27.8",
+            "tamaño_plantilla": "25",
+            "capacidad_estadio": "26850"
+        }
+    }
+]
