@@ -1,0 +1,148 @@
+{% extends 'core/base.html' %}
+{% load static %}
+{% load custom_filters %}
+{% block content %}
+<div class="container mt-5 mb-5"> <!-- Añade un margen inferior al contenedor principal -->
+    <h1>Detalles del Jugador</h1>
+    <div class="card bg-light-green">
+        <div class="row no-gutters">
+            <div class="col-md-2">
+                <img src="{{ jugador.imagen }}" class="card-img" alt="Imagen del jugador">
+            </div>
+            <div class="col-md-6">
+                <div class="card-body">
+                    <h1 class="card-title">{{ jugador.nombre }}</h5>
+                    {% if jugador.club %}
+                        <p class="card-text"><b>Club: </b>{{ jugador.club }}</a></p>
+                    {% endif %}
+                    {% if jugador.posicion %}
+                    <p class="card-text"><b>Posición: </b>{{ jugador.posicion }}</p>
+                    {% endif %}
+                    {% if jugador.posicion_especifica %}
+                    <p class="card-text"><b>Posición específica: </b>{{ jugador.posicion_especifica }}</p>
+                    {% endif %}
+                    {% if jugador.nacionalidad %}
+                    <p class="card-text"><b>Nacionalidad: </b>{{ jugador.nacionalidad }}</p>
+                    {% endif %}
+                    {% if jugador.fecha_nacimiento %}
+                    <p class="card-text"><b>Fecha de Nacimiento: </b>{{ jugador.fecha_nacimiento }}</p>
+                    {% endif %}
+                    {% if jugador.pie_bueno %}
+                    <p class="card-text"><b>Pierna Buena: </b>{{ jugador.pie_bueno }}</p>
+                    {% endif %}
+                    {% if jugador.valor_mercado_actual %}
+                    <p class="card-text"><b>Valor Mercado Actual: </b>{{ jugador.valor_mercado_actual|format_valor_mercado }} €</p>
+                    {% endif %}
+                    {% if jugador.valor_mercado_maximo %}
+                    <p class="card-text"><b>Valor Mercado Máximo: </b>{{ jugador.valor_mercado_maximo|format_valor_mercado }} €</p>
+                    {% endif %}
+                    {% if jugador.altura %}
+                        <p class="card-text"><b>Altura: </b>{{ jugador.altura|format_altura }} m</p>
+                    {% endif %}
+                    {% if jugador.agente %}
+                    <p class="card-text"><b>Agente: </b>{{ jugador.agente }}</p>
+                    {% endif %}
+                    <hr style="border-top: 4px solid black; border-radius: 10px;">
+                    <div class="mt-5">
+                        <h2><b>Gráfica de Valores de Mercado</b></h2>
+                        <canvas id="graficaValoresMercado"></canvas>
+                    </div>
+                </div>
+            </div>
+            {% if jugador.posicion_especifica %}
+            <div class="col-md-4">
+                <div class="text-center">
+                    <img src="{% static 'core/images/fondos/campo_futbol.png' %}" style="max-width: 100%; height: auto; width: 300px;" alt="Campo de fútbol">
+                    {% for posiciones, valores in posicion_jug.items %}
+                        {% if posiciones == jugador.posicion_especifica %}
+                            <div style="position: absolute;  top: {{ valores.top }}px; right: {{ valores.right }}px;">
+                            <i class="fa-solid fa-user" style="font-size: 18px; color: black;"></i>
+                            </div>
+                        {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+            {% endif %}
+        </div>
+    </div>
+    
+    <a href="{% url 'players_list_paginated' %}?page={{ page_number }}" class="btn btn-extremos mt-3">Volver</a>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        var ctx = document.getElementById('graficaValoresMercado').getContext('2d');
+        var valoresMercadoData = {{ valores_mercado|safe }};
+        
+        // Extraer datos de los valores de mercado
+        var fechas = valoresMercadoData.map(function(valor) {
+            return valor.fecha;
+        });
+        var valores = valoresMercadoData.map(function(valor) {
+            return valor.valor_de_mercado;
+        });
+        var equipos = valoresMercadoData.map(function(valor) {
+            return valor.nombre_club;
+        });
+        var edades = valoresMercadoData.map(function(valor) {
+            return valor.edad_jugador;
+        });
+        
+        var myChart = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: fechas,
+                datasets: [{
+                    label: 'Valor de Mercado',
+                    data: valores,
+                    backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                    borderColor: 'rgba(75, 192, 192, 1)',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                },
+                plugins: {
+                    tooltip: {
+                        callbacks: {
+                            label: function(context) {
+                                var label = context.dataset.label || '';
+                                if (label) {
+                                    label += ': ';
+                                }
+                                if (context.parsed.y !== null) {
+                                    label += context.parsed.y + ' €';
+                                }
+                                var equipo = equipos[context.dataIndex];
+                                if (equipo) {
+                                    label += ' (Equipo: ' + equipo + ')';
+                                }
+                                var edad = edades[context.dataIndex];
+                                if (edad) {
+                                    label += ', Edad: ' + edad;
+                                }
+                                return label;
+                            }
+                        }
+                    }
+                }
+            }
+        });
+    });
+</script>
+
+<script>
+    function agregarFavorito(jugadorId) {
+        // Aquí puedes implementar la lógica para agregar el jugador a la lista de favoritos,
+        // por ejemplo, mediante una solicitud AJAX a tu backend
+        alert("¡Jugador añadido a favoritos! Jugador ID: " + jugadorId);
+    }
+</script>
+
+{% endblock %}

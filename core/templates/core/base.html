@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FootbAll</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    <link rel="stylesheet" href="{% static 'core/styles.css' %}">    
+</head>
+
+<body style="background-image: url('{% static 'core\images\grass-2616911_1920-1024x683.jpg' %}'); background-repeat: no-repeat ;background-size: cover; width : 100%; height:100%;">
+    
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light" id="main-navbar">
+            <a class="navbar-brand" href="/">
+                <img src="{% static 'core/images/logos/logoTFG.png' %}" width="50" height="auto" alt="Logo" loading="lazy">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/players_list">Jugadores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/clubs_list">Clubes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Favoritos</a>
+                    </li>
+                </ul>
+                {% if user.is_authenticated %}
+                    <span class="navbar-text mr-4" style="color: #54BFAF;">
+                        Bienvenido, {{ user.username }}
+                    </span>
+                    <form class="form-inline my-2 my-lg-0" >
+                        <a href="{% url 'logout' %}" class="btn btn-login btn-block">Cerrar sesión</a>
+                    </form>
+                {% else %}
+                    <form class="form-inline my-2 my-lg-0">
+                        <a href="#" class="btn btn-login btn-block " data-toggle="modal" data-target="#loginModal">Iniciar sesión</a>
+                    </form>
+                {% endif %}
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        {% block content %}
+        {% endblock %}
+    </main>
+
+    <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="loginModalLabel">Iniciar sesión</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <!-- Formulario de inicio de sesión -->
+                    <form id="loginForm" method="post" action="{% url 'login_ajax' %}">
+                        {% csrf_token %}
+                        <input type="text" name="username" placeholder="Nombre de usuario">
+                        <input type="password" name="password" placeholder="Contraseña">
+                        <button id="loginButton" type="submit" class="btn btn-login">Iniciar sesión</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="{% static 'core/scripts.js' %}"></script>
+    
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var form = document.querySelector("#loginModal form");
+    
+            form.addEventListener("submit", function(event) {
+                event.preventDefault(); // Evita que se envíe el formulario automáticamente
+    
+                var usernameInput = document.querySelector("#loginModal input[name='username']");
+                var passwordInput = document.querySelector("#loginModal input[name='password']");
+    
+                var username = usernameInput.value.trim(); // Obtener el valor del nombre de usuario
+                var password = passwordInput.value.trim(); // Obtener el valor de la contraseña
+    
+                // Validar que ambos campos no estén vacíos
+                if (username === "" || password === "") {
+                    alert("Por favor, complete ambos campos.");
+                    return; // Detener la ejecución si los campos están vacíos
+                }
+    
+                // Crear un objeto FormData para enviar los datos del formulario al servidor
+                var formData = new FormData(form);
+                
+                // Realizar la solicitud AJAX al servidor
+                var xhr = new XMLHttpRequest();
+                xhr.open("POST", "{% url 'login_ajax' %}");
+                xhr.setRequestHeader("X-Requested-With", "XMLHttpRequest");
+                xhr.onload = function() {
+                    if (xhr.status === 200) {
+                        var response = JSON.parse(xhr.responseText);
+                        if (response.success) {
+                            // Si las credenciales son válidas, redirigir a otra página o realizar alguna acción adicional
+                            window.location.href = "/"; // Redirigir al inicio, por ejemplo
+                        } else {
+                            // Si las credenciales son inválidas, mostrar un mensaje de error
+                            alert("Nombre de usuario o contraseña incorrectos.");
+                        }
+                    } else {
+                        alert("Error al procesar la solicitud.");
+                    }
+                };
+                xhr.onerror = function() {
+                    alert("Error de conexión.");
+                };
+                xhr.send(formData); // Enviar los datos del formulario al servidor
+            });
+        });
+    </script>
+    
+    
+</body>
+</html>

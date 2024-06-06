@@ -1,0 +1,79 @@
+{% extends 'core/base.html' %}
+{% load static %}
+
+{% block content %}
+<script>
+    // Array que contiene las URLs de las imágenes de fondo
+    var backgrounds = [
+        "{% static 'core/images/fondos/fondo1.jpg' %}",
+        "{% static 'core/images/fondos/fondo2.jpg' %}",
+        "{% static 'core/images/fondos/fondo3.jpg' %}",
+        "{% static 'core/images/fondos/fondo4.jpg' %}",
+        "{% static 'core/images/fondos/fondo5.png' %}",
+        // Agrega aquí las URLs de todas tus imágenes de fondo
+    ];
+
+    // Función para seleccionar aleatoriamente una imagen de fondo
+    function cambiarFondo() {
+        var randomIndex = Math.floor(Math.random() * backgrounds.length);
+        var selectedBackground = backgrounds[randomIndex];
+        document.body.style.backgroundImage = "url('" + selectedBackground + "')";
+    }
+
+    // Llamar a la función para cambiar el fondo al cargar la página
+    window.onload = cambiarFondo;
+
+    // Función para manejar el clic en la fila de jugadores
+    function handlePlayerRowClick(playerId) {
+        var page_number = 1;  // Siempre será 1 en esta vista
+        var url = "{% url 'player_detail' jugador_id=0 page_number=1 %}".replace("0", playerId);
+        window.location.href = url;
+    }
+
+    // Función para manejar el clic en la fila de clubes
+    function handleClubRowClick(clubId) {
+        var page_number = 1;  // Siempre será 1 en esta vista
+        var url = "{% url 'club_detail' club_id=0 page_number=1 %}".replace("0", clubId);
+        window.location.href = url;
+    }
+</script>
+<div class="container-fluid">
+    <div class="row">
+        <div class="table-responsive d-flex align-items-center" style="height: 70vh;">
+            <div class="col-md-6">
+                <table class="table table-bordered table-striped bg-dark text-center" style="color: #54BFAF; margin: 0 auto;">
+                    <thead>
+                        <tr style="background-color: #02483E; color: #54BFAF;">
+                            <th>5 mejores jugadores</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for jugador in jugadores_mas_valiosos %}
+                            <tr style="background-color: #E0FFF0; color: #02483E;" onclick="handlePlayerRowClick({{ jugador.pk }})">
+                                <td>{{ jugador.nombre }}</td>
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+            
+            <div class="col-md-6">
+                <table class="table table-bordered table-striped bg-dark text-center" style="color: #54BFAF; margin: 0 auto;">
+                    <thead>
+                        <tr style="background-color: #02483E; color: #54BFAF;">
+                            <th>5 mejores clubes</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for club in mejores_clubes %}
+                            <tr style="background-color: #E0FFF0; color: #02483E;" onclick="handleClubRowClick({{ club.pk }})">
+                                <td>{{ club.nombre }}</td>
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
