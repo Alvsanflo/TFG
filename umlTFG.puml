@@ -1,0 +1,36 @@
+@startuml umlTFG
+
+class Usuario{
+    - nombreDeUsuario
+}
+
+class Jugador {
+    - nombre: String
+    - club: String
+    - clubId: Integer
+    - nacionalidad: String
+    - posicion: String
+    - posicionEspecifica: String
+    - pie: String
+    - altura: Integer
+    - valorDeMercadoActual: Integer
+    - valorDeMercadoMaximo: Integer
+    - fechaDeNacimiento: Date
+    - agente: String
+    - imagen: String
+}
+
+class Club {
+    - nombre: String
+    - pais: String
+    - edadPromediaDePlantilla: Double
+    - nombreDelEstadio: String
+    - capacidadEstadio: Integer
+    - imagenEscudo: String
+    - tamañoPlantilla: Integer
+}
+
+
+
+Jugador "1" *-- "..*" Club
+@enduml
