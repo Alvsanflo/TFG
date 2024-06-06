@@ -1,0 +1,261 @@
+/* HEADER */
+header {
+    border-bottom: 1px solid #DDD;
+}
+#main-navbar .navbar-nav .nav-item .nav-link {
+    color: #54BFAF;
+    transition: font-size 0.3s ease;
+}
+.navbar {
+    background-color: #02483E; 
+    margin-bottom: -1px; 
+}
+#main-navbar .navbar-nav .nav-item .nav-link:hover {
+    color: #54BFAF;
+    font-size: 18px;
+}
+/* SEARCH */
+#search-input {
+    width: 0;
+    opacity: 0;
+    transition: width 0.6s ease, opacity 0.6s ease;
+    position: absolute;
+    right: 100%;
+    top: 0;
+    z-index: 1;
+}
+#search-input.active {
+    width: 400px;
+    opacity: 1;
+}
+#search-icon {
+    border: none; 
+    color: #02483E; 
+    padding: 10px 14px; 
+    cursor: pointer; 
+    background-color: transparent; 
+    font-size: 22px;
+    box-shadow: none;
+}
+/* FOOTER */
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10 px;
+    background-color: #02483E;
+    color: white;
+}
+.text-lg {
+    font-size: 17px;
+}
+.icon-lg{
+    font-size: 24px;
+    color: #54BFAF; 
+}
+/* HOME */
+.logo-image {
+    width: 100%; /* Haz que la imagen ocupe el 100% del ancho del contenedor */
+    max-width: 250px; /* Establece un ancho máximo para la imagen */
+    height: auto; /* Permite que la altura se ajuste automáticamente para mantener la proporción */
+}
+.btn-login {
+    background-color: #54BFAF;
+    color: white;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+    width: 100% !important;
+    border-radius: 20px; /* Añade esquinas redondeadas */
+}
+.btn-signup {
+    background-color: #02483E;
+    color: white;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+    border-radius: 20px; /* Añade esquinas redondeadas */
+}
+.btn-login,
+.btn-signup {
+    width: 45%; /* Establece el ancho de los botones */
+    margin: 10px auto; /* Centra los botones y agrega un poco de espacio entre ellos */
+}
+
+/* MODAL */
+.modal-content {
+    background-color: #02483E;
+    color: white;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    width: 100%; /* Añade esquinas redondeadas */
+}
+.modal-header {
+    border-bottom: none;
+    border-top-left-radius: 20px; /* Añade esquinas redondeadas */
+    border-top-right-radius: 20px; /* Añade esquinas redondeadas */
+    margin-bottom: 2%;
+    text-align: center;
+}
+.modal-title {
+    color: #54BFAF;
+    margin:0;
+}
+.modal-body {
+    padding: 30px;
+}
+.modal-footer {
+    border-top: none;
+    border-bottom-left-radius: 20px; /* Añade esquinas redondeadas */
+    border-bottom-right-radius: 20px; /* Añade esquinas redondeadas */
+}
+
+.modal-body input[type="text"],
+.modal-body input[type="password"] {
+    border-radius: 20px; /* Añade esquinas redondeadas */
+    padding: 30 px; /* Añade relleno para mejorar el aspecto visual */
+}
+
+/* Media query para dispositivos con una resolución de 1024x600 */
+@media (max-width: 1024px) and (max-height: 600px) {
+    /* Ajuste del tamaño de fuente para mejorar la legibilidad */
+    body {
+        font-size: 14px;
+    }
+
+    /* Ajuste del tamaño de los enlaces de paginación */
+    .pagination {
+        display: flex;
+        justify-content: center;
+        font-size: 16px;
+    }
+    
+    .pagination a {
+        padding: 10px 15px;
+        margin: 0 5px;
+        
+    }
+
+    /* Ajuste del ancho del contenedor de la tabla */
+    .container {
+        width: 90%;
+    }
+
+    /* Ajuste del tamaño de la tabla */
+    .table-responsive table {
+        font-size: 14px;
+    }
+
+    /* Ajuste del tamaño de la tabla en modo paisaje */
+    @media (orientation: landscape) {
+        .table-responsive table {
+            font-size: 12px;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    /* HOME */
+    .btn-container {
+        display: flex; /* Utilizar flexbox */
+        justify-content: center; /* Centrar horizontalmente los elementos dentro del contenedor */
+        align-items: center; /* Centrar verticalmente los elementos dentro del contenedor */
+    }
+    .btn-login,
+    .btn-signup {
+        width: 45%; /* Ancho para que los botones ocupen el 45% del contenedor */
+        margin: 10px; /* Añadir un margen entre los botones */
+    }
+    .footer {
+        position:static;
+        padding: 10px; /* Reduce el relleno del pie de página en dispositivos móviles */
+    }
+    /* SEARCH */
+    #search-input {
+        width: 0;
+        opacity: 0;
+        transition: width 0.6s ease, opacity 0.6s ease;
+        position: absolute;
+        right: 0; /* Posición desde la derecha */
+        top: 12px; /* Posición desde arriba */
+        z-index: 1;
+    }
+    #search-input.active {
+        width: 350px;
+        opacity: 1;
+    }
+    /* Estilo personalizado para el listado de jugadores */
+.custom-list {
+    padding-left: 0;
+}
+
+.custom-list-item {
+    border: none;
+    border-radius: 0;
+    background-color: #54BFAF;
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+
+.custom-label {
+    color: #54BFAF;
+    font-weight: bold;
+}
+
+
+}
+/* Estilos para los botones de paginación */
+.btn-individual {
+    background-color: #54BFAF; /* Color de fondo */
+    color: #FFFFFF; /* Color del texto */
+    border-color: #54BFAF; /* Color del borde */
+    transition: background-color 0.3s, color 0.3s; /* Transición suave al cambiar el color de fondo y el texto */
+}
+
+.btn-individual:hover {
+    background-color: #54BFAF;
+    color: #02483E; /* Color de fondo al pasar el cursor por encima */
+    border-color: #02483E; /* Color del borde al pasar el cursor por encima */
+}
+
+.btn-extremos {
+    background-color: #02483E; /* Color de fondo */
+    color: #FFFFFF; /* Color del texto */
+    border-color: #02483E; /* Color del borde */
+    transition: background-color 0.3s, color 0.3s; /* Transición suave al cambiar el color de fondo y el texto */
+}
+
+.btn-extremos:hover {
+    background-color: #02483E;
+    color: #54BFAF;  /* Color de fondo al pasar el cursor por encima */
+    border-color: #54BFAF; /* Color del borde al pasar el cursor por encima */
+}
+/* Estilo para la tabla */
+.table {
+    border-collapse: separate; /* Collapse el borde de la tabla */
+    border-spacing: 0; /* Espaciado entre las celdas de la tabla */
+    width: 100%; /* Ancho completo */
+    border-radius: 10px; /* Redondea los bordes de la tabla */
+}
+
+.table thead th,
+.table tbody td {
+    border: 1px solid;
+    padding: 12px; /* Espaciado interno */
+}
+
+.table tbody tr:first-child td,
+.table thead tr:last-child th {
+    border-top-left-radius: 10px; /* Añade radio al borde superior izquierdo */
+    border-top-right-radius: 10px; /* Añade radio al borde superior derecho */
+}
+
+.table tbody tr:last-child td,
+.table thead tr:last-child th {
+    border-bottom-left-radius: 10px; /* Añade radio al borde inferior izquierdo */
+    border-bottom-right-radius: 10px; /* Añade radio al borde inferior derecho */
+}
+/* Elimina el color de fondo del contenedor */
+.container {
+    background-color: transparent; /* Hace que el fondo sea transparente */
+}
+.bg-light-green {
+    background-color: #E0FFF0; /* Define el color de fondo */
+}
+
