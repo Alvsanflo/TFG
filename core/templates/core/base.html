@@ -5,14 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FootbAll</title>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
     <link rel="stylesheet" href="{% static 'core/styles.css' %}">    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 
-<body style="background-image: url('{% static 'core\images\grass-2616911_1920-1024x683.jpg' %}'); background-repeat: no-repeat ;background-size: cover; width : 100%; height:100%;">
+<body style="background-image: url('{% static 'core/images/grass-2616911_1920-1024x683.jpg' %}'); background-repeat: no-repeat ;background-size: cover; width : 100%; height:100%;">
     
     <header>
         <nav class="navbar navbar-expand-lg navbar-light" id="main-navbar">
@@ -30,20 +31,26 @@
                     <li class="nav-item">
                         <a class="nav-link" href="/clubs_list">Clubes</a>
                     </li>
+                    {% if user.is_authenticated %}
                     <li class="nav-item">
                         <a class="nav-link" href="#">Favoritos</a>
                     </li>
+                    {% endif %}
                 </ul>
                 {% if user.is_authenticated %}
                     <span class="navbar-text mr-4" style="color: #54BFAF;">
                         Bienvenido, {{ user.username }}
                     </span>
-                    <form class="form-inline my-2 my-lg-0" >
-                        <a href="{% url 'logout' %}" class="btn btn-login btn-block">Cerrar sesión</a>
+                    <form class="form-inline my-2 my-lg-0" action="{% url 'logout' %}" method="post">
+                        {% csrf_token %}
+                        <button type="submit" class="btn btn-login btn-block">Cerrar sesión</button>
                     </form>
                 {% else %}
+                    <form class="form-inline my-2 my-lg-0" style="margin-right: 5px;">
+                        <button type="button" class="btn btn-login btn-block" data-toggle="modal" data-target="#loginModal">Iniciar sesión</button>
+                    </form>
                     <form class="form-inline my-2 my-lg-0">
-                        <a href="#" class="btn btn-login btn-block " data-toggle="modal" data-target="#loginModal">Iniciar sesión</a>
+                    <button type="button" class="btn btn-login btn-block" data-toggle="modal" data-target="#registerModal">Registrarse</button>
                     </form>
                 {% endif %}
             </div>
@@ -55,6 +62,7 @@
         {% endblock %}
     </main>
 
+    <!-- Modal de inicio de sesión -->
     <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -76,60 +84,78 @@
             </div>
         </div>
     </div>
-    
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="{% static 'core/scripts.js' %}"></script>
-    
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            var form = document.querySelector("#loginModal form");
-    
-            form.addEventListener("submit", function(event) {
-                event.preventDefault(); // Evita que se envíe el formulario automáticamente
-    
-                var usernameInput = document.querySelector("#loginModal input[name='username']");
-                var passwordInput = document.querySelector("#loginModal input[name='password']");
-    
-                var username = usernameInput.value.trim(); // Obtener el valor del nombre de usuario
-                var password = passwordInput.value.trim(); // Obtener el valor de la contraseña
-    
-                // Validar que ambos campos no estén vacíos
-                if (username === "" || password === "") {
-                    alert("Por favor, complete ambos campos.");
-                    return; // Detener la ejecución si los campos están vacíos
-                }
-    
-                // Crear un objeto FormData para enviar los datos del formulario al servidor
-                var formData = new FormData(form);
-                
-                // Realizar la solicitud AJAX al servidor
-                var xhr = new XMLHttpRequest();
-                xhr.open("POST", "{% url 'login_ajax' %}");
-                xhr.setRequestHeader("X-Requested-With", "XMLHttpRequest");
-                xhr.onload = function() {
-                    if (xhr.status === 200) {
-                        var response = JSON.parse(xhr.responseText);
-                        if (response.success) {
-                            // Si las credenciales son válidas, redirigir a otra página o realizar alguna acción adicional
-                            window.location.href = "/"; // Redirigir al inicio, por ejemplo
-                        } else {
-                            // Si las credenciales son inválidas, mostrar un mensaje de error
-                            alert("Nombre de usuario o contraseña incorrectos.");
-                        }
-                    } else {
-                        alert("Error al procesar la solicitud.");
-                    }
-                };
-                xhr.onerror = function() {
-                    alert("Error de conexión.");
-                };
-                xhr.send(formData); // Enviar los datos del formulario al servidor
-            });
-        });
-    </script>
+
+    <!-- Modal de registro -->
+    <div class="modal fade" id="registerModal" tabindex="-1" role="dialog" aria-labelledby="registerModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="registerModalLabel">Registrarse</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <!-- Formulario de registro -->
+                    <form id="registerForm" method="post" action="{% url 'register_ajax' %}">
+                        {% csrf_token %}
+                        <input type="text" name="username" placeholder="Nombre de usuario">
+                        <input type="password" name="password1" placeholder="Contraseña">
+                        <input type="password" name="password2" placeholder="Confirmar contraseña">
+                        <button id="registerButton" type="submit" class="btn btn-login">Registrarse</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
     
     
 </body>
 </html>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        var loginForm = document.querySelector("#loginModal form");
+        var registerForm = document.querySelector("#registerModal form");
+
+        // Manejar formulario de inicio de sesión
+        loginForm.addEventListener("submit", function(event) {
+            event.preventDefault(); // Evita enviar el formulario automáticamente
+
+            var formData = new FormData(loginForm);
+            enviarFormulario(formData, "{% url 'login_ajax' %}");
+        });
+
+        // Manejar formulario de registro
+        registerForm.addEventListener("submit", function(event) {
+            event.preventDefault(); // Evita enviar el formulario automáticamente
+
+            var formData = new FormData(registerForm);
+            enviarFormulario(formData, "{% url 'register_ajax' %}");
+        });
+
+        // Función para enviar formulario y manejar la respuesta
+        function enviarFormulario(formData, url) {
+            var xhr = new XMLHttpRequest();
+            xhr.open("POST", url);
+            xhr.setRequestHeader("X-Requested-With", "XMLHttpRequest");
+            xhr.onload = function() {
+                if (xhr.status === 200) {
+                    var response = JSON.parse(xhr.responseText);
+                    if (response.success) {
+                        // Si el registro o inicio de sesión es exitoso, redirigir a la página indicada
+                        window.location.href = response.redirect_url || '/';
+                    } else {
+                        alert("Error: " + response.error_message);
+                    }
+                } else {
+                    alert("Error al procesar la solicitud. Código de estado: " + xhr.status);
+                }
+            };
+            xhr.onerror = function() {
+                alert("Error de conexión.");
+            };
+            xhr.send(formData);
+        }
+    });
+</script>
+

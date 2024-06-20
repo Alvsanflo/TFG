@@ -12,7 +12,6 @@
             <div class="input-group mb-3">
                 <input type="text" class="form-control  mb-3" list="paises" placeholder="País" name="pais" value="{{ pais_selccionado }}">
                 <datalist id="paises">
-                    <!-- Aquí puedes incluir las opciones de países -->
                     {% for pais in paises %}
                         {% if pais == pais_seleccionado %}
                             <option value="{{ pais }}" selected>{{ pais_selccionado }}</option>

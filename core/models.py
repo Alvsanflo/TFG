@@ -1,4 +1,6 @@
 from django.db import models
+from django.utils import timezone
+from django.contrib.auth.models import User
 
 class Jugador(models.Model):
     nombre = models.CharField(max_length=100)
@@ -47,3 +49,10 @@ class ValoresDeMercado(models.Model):
 
     def __str__(self):
         return f"{self.nombre_jugador} - {self.valor_de_mercado}"
+    
+class JuegoUsuario(models.Model):
+    usuario = models.OneToOneField(User, on_delete=models.CASCADE)
+    partida_iniciada = models.DateField(null=True, blank=True)
+    partida_completada = models.DateField(null=True, blank=True)
+    
+User.add_to_class('favoritos', models.JSONField(default=dict, blank=True))

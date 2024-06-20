@@ -13,4 +13,10 @@ urlpatterns = [
     path('clubs_list/', clubs_list, name ='clubs_list_paginated'),
     path('club_detail/<int:club_id>/<int:page_number>/', club_detail, name='club_detail'),
     path('login_ajax/', login_ajax, name='login_ajax'),
+    path('comprobar_respuesta/', comprobar_respuesta, name='comprobar_respuesta'),
+    path('iniciar_partida/', iniciar_partida, name='iniciar_partida'),
+    path('register_ajax/', register_ajax, name='register_ajax'),
+    path('agregar_favorito/<int:jugador_id>/', agregar_favorito, name='agregar_favorito'),
+    path('eliminar_favorito/<int:jugador_id>/', eliminar_favorito, name='eliminar_favorito'),
+    path('lista_favoritos/', lista_favoritos, name='lista_favoritos'),
 ]
