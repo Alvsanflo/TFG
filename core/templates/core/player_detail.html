@@ -81,7 +81,13 @@
         </div>
     </div>
     
-    <a href="{% url 'players_list_paginated' %}?page={{ page_number }}" class="btn btn-extremos mt-3">Volver</a>
+    
+        {% if 'favoritos' in request.META.HTTP_REFERER %}
+            <a href="{% url 'favoritos' %}?page={{ page_number }}" class="btn btn-extremos mt-3">Volver</a>
+        {% else %}
+            <a href="{% url 'players_list' %}?page={{ page_number }}{% if query_nombre %}&q={{ query_nombre }}{% endif %}{% if query_nacionalidad %}&nacionalidad={{ query_nacionalidad }}{% endif %}{% if query_posicion %}&posicion={{ query_posicion }}{% endif %}" class="btn btn-extremos mt-3">Volver</a>
+        {% endif %}
+    
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
