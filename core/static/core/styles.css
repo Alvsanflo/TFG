@@ -86,6 +86,7 @@ header {
     border-radius: 20px;
     width: 100%; /* Añade esquinas redondeadas */
 }
+
 .modal-header {
     border-bottom: none;
     border-top-left-radius: 20px; /* Añade esquinas redondeadas */
@@ -93,13 +94,16 @@ header {
     margin-bottom: 2%;
     text-align: center;
 }
+
 .modal-title {
     color: #54BFAF;
-    margin:0;
+    margin: 0;
 }
+
 .modal-body {
     padding: 30px;
 }
+
 .modal-footer {
     border-top: none;
     border-bottom-left-radius: 20px; /* Añade esquinas redondeadas */
@@ -109,8 +113,29 @@ header {
 .modal-body input[type="text"],
 .modal-body input[type="password"] {
     border-radius: 20px; /* Añade esquinas redondeadas */
-    padding: 30 px; /* Añade relleno para mejorar el aspecto visual */
+    padding: 12px; /* Ajusta el relleno interior */
+    font-size: 16px; /* Ajusta el tamaño del texto */
+    width: calc(100% - 24px); /* Ajusta el ancho del input teniendo en cuenta el relleno */
+    margin-bottom: 15px; /* Añade margen inferior */
+    border: 1px solid #ccc; /* Añade borde para mejorar la apariencia */
+    background-color: #fff; /* Color de fondo del input */
+    color: #495057; /* Color de texto del input */
+    box-sizing: border-box; /* Incluye el borde y el relleno en el ancho total */
 }
+
+.modal-body button.btn-login {
+    width: 100%; /* Hace que el botón ocupe el ancho completo */
+}
+
+.modal-body input[type="text"]:focus,
+.modal-body input[type="password"]:focus {
+    outline: none; /* Quita el contorno al enfocar */
+    border-color: #54BFAF; /* Cambia el color del borde al enfocar */
+}
+.modal-body input.error {
+    border-color: #dc3545 !important; /* Color rojo para el borde */
+}
+
 
 /* Media query para dispositivos con una resolución de 1024x600 */
 @media (max-width: 1024px) and (max-height: 600px) {
