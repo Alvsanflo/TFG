@@ -4,7 +4,7 @@ from django.contrib.auth.models import User
 
 class Jugador(models.Model):
     nombre = models.CharField(max_length=100)
-    clubId = models.IntegerField(default=None)
+    clubId = models.IntegerField(default=None, blank=True, null=True)
     club = models.CharField(max_length=100)  
     posicion = models.CharField(max_length=100)
     posicion_especifica = models.CharField(max_length=100,null=True, blank=True)
