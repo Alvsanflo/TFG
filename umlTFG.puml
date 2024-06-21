@@ -1,36 +1,60 @@
 @startuml umlTFG
 
-class Usuario{
-    - nombreDeUsuario
+class Usuario {
+    - nombreDeUsuario: String
 }
 
 class Jugador {
     - nombre: String
-    - club: String
     - clubId: Integer
-    - nacionalidad: String
+    - club: String
     - posicion: String
-    - posicionEspecifica: String
-    - pie: String
-    - altura: Integer
-    - valorDeMercadoActual: Integer
-    - valorDeMercadoMaximo: Integer
-    - fechaDeNacimiento: Date
+    - posicion_especifica: String
+    - nacionalidad: String
+    - fecha_nacimiento: Date
+    - pie_bueno: String
+    - valor_mercado_actual: Decimal
+    - valor_mercado_maximo: Decimal
+    - ultimo_año: Integer
+    - altura: String
     - agente: String
     - imagen: String
 }
-
+class ValoresDeMercado {
+    - jugador_id: Integer
+    - fecha: Date
+    - valor_de_mercado: Decimal
+    - club_id: Integer
+    - pais: String
+    - nombre_jugador: String
+    - edad_jugador: Integer
+    - posicion_jugador: String
+    - posicion_especifica_jugador: String
+    - nacionalidad_jugador: String
+    - nombre_club: String
+}
 class Club {
     - nombre: String
     - pais: String
-    - edadPromediaDePlantilla: Double
-    - nombreDelEstadio: String
-    - capacidadEstadio: Integer
-    - imagenEscudo: String
-    - tamañoPlantilla: Integer
+    - imagen_escudo: String
+    - nombre_estadio: String
+    - edad_promedia_plantilla: Decimal
+    - capacidad_estadio: Integer
+    - tamaño_plantilla: Integer
 }
 
 
 
-Jugador "1" *-- "..*" Club
+class JuegoUsuario {
+    - usuario: Usuario
+    - partida_iniciada: Date
+    - partida_completada: Date
+}
+
+Usuario "1" *-- "1" JuegoUsuario
+
+Jugador "1" -- "*" Club : juegaEn
+Jugador "*" -- "1" ValoresDeMercado : tiene/tenia
+Club "1" -- "*" ValoresDeMercado : asociado a
+
 @enduml
