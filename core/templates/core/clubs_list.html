@@ -1,0 +1,97 @@
+{% extends 'core/base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="container mt-5">
+    <h1 style="color: #02483E;">Listado de Clubes</h1>
+
+<!-- Formulario de búsqueda -->
+<form class="form-inline mt-3 mb-3" method="GET" action="{% url 'clubs_list' %}" id="filterForm">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="input-group mb-3">
+                <input type="text" class="form-control  mb-3" list="paises" placeholder="País" name="pais" value="{{ pais_selccionado }}">
+                <datalist id="paises">
+                    {% for pais in paises %}
+                        {% if pais == pais_seleccionado %}
+                            <option value="{{ pais }}" selected>{{ pais_selccionado }}</option>
+                        {% else %}
+                            <option value="{{ pais }}">{{ pais }}</option>
+                        {% endif %}                    
+                    {% endfor %}
+                </datalist>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Buscar por nombre" name="q" value="{{ request.GET.q }}">
+            </div>
+        </div>
+        <div class="col-md-4">
+            <button class="btn btn-extremos" type="submit">Buscar</button>
+            {% if request.GET.q or request.GET.pais %}
+            <a href="{% url 'clubs_list' %}" class="btn btn-danger">Borrar</a>
+            {% endif %}
+        </div>
+    </div>
+</form>
+
+    <div class="table-responsive">
+        <div style="overflow-x: auto;">
+            <table class="table table-bordered table-striped bg-dark">
+                <thead>
+                    <tr style="background-color: #02483E; color: #54BFAF;">
+                        <th>Nombre</th>
+                        <th>País</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for club in page_obj %}
+                        <tr style="background-color: #E0FFF0; color: #02483E;" id="fila-{{ club.pk }}" class="fila-cliclable">
+                            <td>{{ club.nombre }}</td>
+                            <td>{{ club.pais }}</td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    {% if page_obj.has_previous %}
+        <a href="?page=1{% if pais_seleccionado %}&pais={{ pais_seleccionado }}{% endif %}" class="btn btn-extremos">Primera página</a>
+        <a href="?page={{ page_obj.previous_page_number }}{% if pais_seleccionado %}&pais={{ pais_seleccionado }}{% endif %}" class="btn btn-individual">Anterior</a>
+    {% endif %}
+
+    <span class="mx-2" style="color: #FFFFFF; background-color: #02483E; padding: 5px 10px; border-radius: 5px;">Página {{ page_obj.number }} de {{ page_obj.paginator.num_pages }}</span>
+
+    {% if page_obj.has_next %}
+        <a href="?page={{ page_obj.next_page_number }}{% if pais_seleccionado %}&pais={{ pais_seleccionado }}{% endif %}" class="btn btn-individual">Siguiente</a>
+        <a href="?page={{ page_obj.paginator.num_pages }}{% if pais_seleccionado %}&pais={{ pais_seleccionado }}{% endif %}" class="btn btn-extremos">Última página</a>
+    {% endif %}
+</div>
+
+<style>
+    .fila-cliclable:hover {
+        cursor: pointer;
+        background-color: #02483E; /* Cambio de color al pasar el ratón por encima */
+    }
+</style>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        var filas = document.querySelectorAll(".fila-cliclable");
+        filas.forEach(function(fila) {
+            fila.addEventListener("click", function() {
+                var clubId = this.id.split("-")[1];  // Obtener el player_id correctamente
+                var page_number = "{{ page_obj.number }}";  // Obtener el número de página desde el contexto de la plantilla
+                var url = "{% url 'club_detail' club_id=0 page_number=999999999 %}".replace("0", clubId).replace("999999999",page_number);
+                window.location.href = url;
+            });
+        });
+    });
+</script>
+
+
+
+{% endblock %}

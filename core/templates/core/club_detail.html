@@ -1,0 +1,30 @@
+{% extends 'core/base.html' %}
+{% load static %}
+{% load custom_filters %}
+
+{% block content %}
+<div class="container mt-5 mb-5"> <!-- Añade un margen inferior al contenedor principal -->
+    <h1>Detalles del Club</h1>
+    <div class="card bg-light-green">
+        <div class="row no-gutters">
+            <div class="col-md-2">
+                <img src="{{ club.imagen_escudo }}" class="card-img" alt="Imagen del jugador">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="card-title">{{ club.nombre }}</h5>
+                    <p class="card-text"><b>País: </b>{{ club.pais }}</p>
+                    <p class="card-text"><b>Estadio: </b>{{ club.nombre_estadio }} </p>
+                    <p class="card-text"><b>Capacidad: </b>{{ club.capacidad_estadio|format_espectadores }} espectadores</p>
+                    <p class="card-text"><b>Tamaño de plantilla: </b>{{ club.tamaño_plantilla }} jugadores</p>
+                    <p class="card-text"><b>Edad Promedio Plantilla: </b>{{ club.edad_promedia_plantilla }} años</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a href="{% url 'clubs_list_paginated' %}?page={{ page_number }}" class="btn btn-extremos mt-3">Volver</a>
+</div>
+
+
+</div>
+{% endblock %}

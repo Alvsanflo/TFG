@@ -1,0 +1,100 @@
+{% extends 'core/base.html' %}
+{% load static %}
+
+{% block extra_head %}
+<style>
+    h1 {
+        color: #02483E;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="container mt-5 mb-5">
+    <h1>Favoritos</h1>
+
+    {% if jugadores_favoritos %}
+        <div class="row">
+            {% for jugador in jugadores_favoritos %}
+                <div class="col-md-4 mb-4">
+                    <div class="card custom-card" id="jugador-{{ jugador.id }}">
+                        {% if jugador.imagen %}
+                            <img src="{{ jugador.imagen }}" class="card-img-top" alt="Imagen del jugador">
+                        {% endif %}
+                        <div class="card-body">
+                            <h5 class="card-title">{{ jugador.nombre }}</h5>
+                            {% if jugador.club %}
+                                <p class="card-text"><b>Club: </b>{{ jugador.club }}</p>
+                            {% endif %}
+                            {% if jugador.posicion %}
+                                <p class="card-text"><b>Posición: </b>{{ jugador.posicion }}</p>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+
+        <!-- Paginación -->
+        <nav aria-label="Page navigation">
+            <ul class="pagination justify-content-center">
+                {% if jugadores_favoritos.has_previous %}
+                    <li class="page-item">
+                        <a class="page-link" href="?page={{ jugadores_favoritos.previous_page_number }}" aria-label="Anterior">
+                            <span aria-hidden="true">&laquo;</span>
+                        </a>
+                    </li>
+                {% else %}
+                    <li class="page-item disabled">
+                        <span class="page-link" aria-label="Anterior">
+                            <span aria-hidden="true">&laquo;</span>
+                        </span>
+                    </li>
+                {% endif %}
+                {% for num in jugadores_favoritos.paginator.page_range %}
+                    {% if jugadores_favoritos.number == num %}
+                        <li class="page-item active">
+                            <span class="page-link">{{ num }}</span>
+                        </li>
+                    {% else %}
+                        <li class="page-item"><a class="page-link" href="?page={{ num }}">{{ num }}</a></li>
+                    {% endif %}
+                {% endfor %}
+                {% if jugadores_favoritos.has_next %}
+                    <li class="page-item">
+                        <a class="page-link" href="?page={{ jugadores_favoritos.next_page_number }}" aria-label="Siguiente">
+                            <span aria-hidden="true">&raquo;</span>
+                        </a>
+                    </li>
+                {% else %}
+                    <li class="page-item disabled">
+                        <span class="page-link" aria-label="Siguiente">
+                            <span aria-hidden="true">&raquo;</span>
+                        </span>
+                    </li>
+                {% endif %}
+            </ul>
+        </nav>
+    {% else %}
+        <p class="text-center">No tienes jugadores favoritos.</p>
+    {% endif %}
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        var tarjetasJugador = document.querySelectorAll(".custom-card");
+        tarjetasJugador.forEach(function(tarjeta) {
+            tarjeta.addEventListener("click", function() {
+                var jugadorId = this.id.split("-")[1];  // Obtener el id del jugador desde el ID de la tarjeta
+                var page_number = "{{ jugadores_favoritos.number }}";  // Obtener el número de página actual
+                var url = "{% url 'player_detail' jugador_id=0 page_number=9999999999999999999999999 %}".replace("0", jugadorId).replace("9999999999999999999999999", page_number);
+                window.location.href = url;
+            });
+        });
+    });
+</script>
+
+{% endblock %}

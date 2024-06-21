@@ -1,0 +1,37 @@
+@startuml DiagramaDeCarpetas
+
+package "FutbAii" {
+    package "core" {
+        file "models.py"
+        file "views.py"
+        file "urls.py"
+        file "admin.py"
+        file "apps.py"
+        file "tests.py"
+        package "migrations"{
+        }
+        package "templates"{
+            
+        }
+        package "static"{
+            
+        }
+        package "templatetags"{
+            
+        }
+        package "fixtures"{
+            
+        }
+    }
+
+    package "TFG" {
+        file "settings.py"
+        file "urls.py"
+    }
+
+    file "manage.py"
+    file "generar_preguntas.py"
+    file "valoresdemercado_nombres.zip"
+}
+
+@enduml
