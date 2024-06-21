@@ -18,5 +18,5 @@ urlpatterns = [
     path('register_ajax/', register_ajax, name='register_ajax'),
     path('agregar_favorito/<int:jugador_id>/', agregar_favorito, name='agregar_favorito'),
     path('eliminar_favorito/<int:jugador_id>/', eliminar_favorito, name='eliminar_favorito'),
-    path('lista_favoritos/', lista_favoritos, name='lista_favoritos'),
+    path('favoritos/', favoritos, name='favoritos'),
 ]

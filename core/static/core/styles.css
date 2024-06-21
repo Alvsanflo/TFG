@@ -284,3 +284,66 @@ header {
     background-color: #E0FFF0; /* Define el color de fondo */
 }
 
+.custom-card {
+    background-color: #343a40;
+    color: #ffffff;
+    border-color: #02483E;
+    width: 100%;
+    max-width: 250px; /* Ancho máximo de las tarjetas */
+    height: 500px; /* Altura fija para todas las tarjetas */
+    margin-bottom: 20px;
+    transition: background-color 0.3s, border-color 0.3s;
+    display: flex; /* Para alinear verticalmente */
+    flex-direction: column; /* Alinear contenido verticalmente */
+    justify-content: space-between; /* Distribuir contenido verticalmente */
+}
+
+.custom-card:hover {
+    cursor: pointer;
+    background-color: #02483E;
+    border-color: #02483E;
+}
+
+.custom-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.custom-card .card-title {
+    font-size: 18px; /* Tamaño del título de la tarjeta */
+    margin-bottom: 10px;
+}
+
+.custom-card .card-body {
+    padding: 15px;
+    background-color: #343a40;
+    color: #ffffff;
+    border-color: #02483E;
+    width: 100%;
+    max-width: 250px; /* Ancho máximo de las tarjetas */
+    margin-bottom: 20px;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.pagination .page-link {
+    color: #ffffff;
+    background-color: #02483E;
+    border-color: #02483E;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.pagination .page-item.disabled .page-link {
+    color: #6c757d;
+    background-color: #343a40;
+    border-color: #343a40;
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #54BFAF;
+    border-color: #54BFAF;
+}
+
+.pagination .page-link:hover {
+    background-color: #54BFAF;
+    border-color: #54BFAF;
+}

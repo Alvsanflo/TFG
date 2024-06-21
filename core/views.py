@@ -254,7 +254,8 @@ def players_list(request, page=1):
         'nacionalidades': nacionalidades,
         'nacionalidad_seleccionada': query_nacionalidad,  # Pasar la nacionalidad seleccionada al contexto
         'posiciones': posiciones,
-        'posicion_seleccionada': query_posicion  # Pasar la posición seleccionada al contexto
+        'posicion_seleccionada': query_posicion,  # Pasar la posición seleccionada al contexto
+        'query_nombre': query_nombre,  # Pasar la consulta de búsqueda por nombre al contexto
     }
     return render(request, 'core/players_list.html', context)
 
@@ -297,7 +298,15 @@ def player_detail(request, jugador_id, page_number):
         'Segundo Delantero': {'top': 70, 'right': 177},
     }
     context['posicion_jug'] = posiciones_jugador
-    
+    query_nombre = request.GET.get('q')
+    query_nacionalidad = request.GET.get('nacionalidad')
+    query_posicion = request.GET.get('posicion')
+    context['query_nombre'] = query_nombre
+    context['query_nacionalidad'] = query_nacionalidad
+    context['query_posicion'] = query_posicion
+    print(query_nacionalidad)
+    print(query_posicion)
+    print(query_nombre)
     return render(request, 'core/player_detail.html', context)
 
 def clubs_list(request, page = 1):
@@ -363,14 +372,17 @@ def eliminar_favorito(request, jugador_id):
     else:
         return JsonResponse({'success': False})
 
+
 @login_required
-def lista_favoritos(request):
-    usuario = request.user  # Obtener el usuario autenticado
-
-    favoritos = usuario.favoritos
-
+def favoritos(request):
+    favoritos_ids = list(request.user.favoritos.keys())
+    jugadores_favoritos = Jugador.objects.filter(id__in=favoritos_ids)
+    
+    paginator = Paginator(jugadores_favoritos, 12)  # Mostrar 12 jugadores por página
+    page_number = request.GET.get('page')
+    page_obj = paginator.get_page(page_number)
+    
     context = {
-        'favoritos': favoritos
+        'jugadores_favoritos': page_obj,
     }
-
-    return render(request, 'tu_template.html', context)
+    return render(request, 'core/favoritos.html', context)
